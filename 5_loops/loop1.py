@@ -33,5 +33,12 @@ for i in range(100):
         l1.append(i)
 print(l1)
 
-for i in range(1):
-    print(i)
+
+
+#type 3
+#index
+
+l1=[55,66,77,88,99]
+for i in range(len(l1)):
+    print(l1[i])
+
