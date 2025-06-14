@@ -51,26 +51,35 @@ def print_hello():
 print_hello()
 
 
-'hello'.replace()
 
 
 
 
+def get_stocks(stock_prices:dict)->list:
+    """
+    this function will take input for stocks
+    and return protfolio list
+    """
+    portfolio=[]
+    while True:
+        name=input('enter the stock name (q to quit)')
+        if name.upper()=='Q':
+            break
+        if name=='nvda':
+            print('you cannot trade this stock try something else')
+            continue
 
+        found=stock_prices.get(name)
+        if found:
+            portfolio.append(name)
+        else:
+            print('this stock name is invalid type again')
+    return portfolio
 
 stock_prices={'tsla':700,'goog':900,'amzn':680,'nvda':567}
-portfolio=[]
-while True:
-    name=input('enter the stock name (q to quit)')
-    if name.upper()=='Q':
-        break
-    if name=='nvda':
-        print('you cannot trade this stock try something else')
-        continue
+p=get_stocks(stock_prices)
+print(p)
 
-    found=stock_prices.get(name)
-    if found:
-        portfolio.append(name)
-    else:
-        print('this stock name is invalid type again')
-print(portfolio)
+
+#rev list
+#rev string
