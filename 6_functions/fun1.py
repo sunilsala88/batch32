@@ -76,10 +76,36 @@ def get_stocks(stock_prices:dict)->list:
             print('this stock name is invalid type again')
     return portfolio
 
-stock_prices={'tsla':700,'goog':900,'amzn':680,'nvda':567}
-p=get_stocks(stock_prices)
-print(p)
+# stock_prices={'tsla':700,'goog':900,'amzn':680,'nvda':567}
+# p=get_stocks(stock_prices)
+# print(p)
 
 
 #rev list
 #rev string
+
+def rev_list(list1:list)->list:
+
+    end=-(len(list1)+1)    
+    l=range(-1,end,-1)
+    print(list(l))
+    ans=[]
+    for i in l:
+        ans.append(list1[i])
+    return ans
+print('hello')
+a=rev_list([11,22,33])
+print(a)
+
+
+def rev_string(word:str)->str:
+
+    end=-(len(word)+1)    
+    l=range(-1,end,-1)
+    print(list(l))
+    ans=""
+    for i in l:
+        ans=ans+word[i]
+    return ans
+a=rev_string('sunil')
+print(a)
