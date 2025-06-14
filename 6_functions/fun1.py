@@ -1,7 +1,10 @@
 
 #parameter ,argument
 
-def average(numbers):
+def average(numbers:list)->int:
+    """
+    this function will calc avg value
+    """
 
     total=0
     for i in numbers:
@@ -16,7 +19,10 @@ avg=average(prices)
 print(avg)
 
 
-def get_fib(number):
+def get_fib(number:int)->list:
+    """
+    this func will return fib numbers
+    """
 
     list1=[1,1]
     num1=list1[0]
@@ -32,7 +38,7 @@ def get_fib(number):
 l=get_fib(10)
 print(l)
 
-def add_value(num1,num2):
+def add_value(num1:int,num2:int)->int:
     return num1+num2
 
 a=add_value(10,20)
@@ -43,3 +49,28 @@ def print_hello():
         print('hello')
 
 print_hello()
+
+
+'hello'.replace()
+
+
+
+
+
+
+stock_prices={'tsla':700,'goog':900,'amzn':680,'nvda':567}
+portfolio=[]
+while True:
+    name=input('enter the stock name (q to quit)')
+    if name.upper()=='Q':
+        break
+    if name=='nvda':
+        print('you cannot trade this stock try something else')
+        continue
+
+    found=stock_prices.get(name)
+    if found:
+        portfolio.append(name)
+    else:
+        print('this stock name is invalid type again')
+print(portfolio)
