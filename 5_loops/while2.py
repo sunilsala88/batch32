@@ -28,14 +28,70 @@
 # print(portfolio)
 
 
-list1=[44,55,63,45,23,67,56]
-high=list1[0]
-i=0
-while True:
-    if i==len(list1):
-        break
-    print(list1[i])
-    if high<list1[i]:
-        high=list1[i]
-    i=i+1
-print(high)
+# list1=[44,55,63,45,23,67,56]
+# high=list1[0]
+# i=0
+# while True:
+#     if i==len(list1):
+#         break
+#     current=list1[i]
+#     print(current)
+#     if high<current:
+#         high=current
+#     i=i+1
+# print(high)
+
+
+#10 fib number
+# 1,1,2,3,5,8,13,21,34,55
+# number=10
+# fib=[1,1]
+# n1=fib[0]
+# n2=fib[1]
+# for i in range(number-2):
+#     n3=n1+n2
+#     fib.append(n3)
+#     n1=n2
+#     n2=n3
+# print(fib)
+
+
+# number=10
+# fib=[1,1]
+# n1=fib[0]
+# n2=fib[1]
+# count=0
+# while True:
+#     if count==number-2:
+#         break
+#     n3=n1+n2
+#     fib.append(n3)
+#     n1=n2
+#     n2=n3
+#     count=count+1
+# print(fib)
+
+# l1=[44,55,66,77,88]
+
+# i=-1
+# l2=[]
+# while True:
+#     if i==-(len(l1)+1):
+#         break
+#     current=l1[i]
+#     l2.append(current)
+#     i=i-1
+# print(l2)
+
+print(list(range(5)))
+print(list(range(5,10)))
+print(list(range(5,25,3)))
+
+print(list(range(-1,-6,-1)))
+
+l1=[44,55,66,77,88]
+l2=[]
+end=-(len(l1)+1)
+for i in range(-1,end,-1):
+    l2.append(l1[i])
+print(l2)
