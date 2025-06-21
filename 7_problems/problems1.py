@@ -41,16 +41,61 @@ for i in range(len(name)):
 print(stock_prices)
 
 
+def get_year(capital:int,interest:int)->int:
+    years=0
+    current_money=capital
+    while True:
+        if current_money>2*capital:
+            break
+        perc_8=current_money*(interest/100)
+        current_money=current_money+perc_8
+        years=years+1
 
-capital=1000
-interest=8
-years=0
-current_money=capital
-while True:
-    if current_money>2*capital:
-        break
-    perc_8=capital*(interest/100)
-    current_money=current_money+perc_8
-    years=years+1
+    return (years)
+print(get_year(1000,8))
 
-print(years)
+
+def get_shares(quantity,divends,price,years):
+
+    total_value=quantity*price
+    for i in range(years):
+        total_value=total_value+(divends*quantity)
+        quantity=total_value/price
+    final=total_value/price
+    return final
+
+f=get_shares(100,2,50,5)
+print(f)
+
+def pension_fund(initial,monthy,interest,duration):
+
+    current=initial
+    for i in range(1,(duration*12)+1):
+        if i%12==0:
+            current_int=(current*(interest))
+            current=current+monthy+current_int
+            print(i,current_int)
+        else:
+            print(i)
+            current=current+monthy
+    return current
+
+
+c=pension_fund(50000,200, 0.06,20)
+print(c)
+
+
+
+closing_prices=list(range(101,150))
+print(closing_prices)
+mv=5
+
+sma=[]
+for i in range(len(closing_prices)):
+    if i<mv:
+        sma.append(closing_prices[i])
+    else:
+        last_mv=closing_prices[i-5:i]
+        avg=sum(last_mv)/mv
+        sma.append(avg)
+print(sma)
