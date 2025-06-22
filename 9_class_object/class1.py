@@ -88,6 +88,7 @@ class Book:
     
     def set_quantity(self, new_quantity):
         self.quantity=new_quantity
+        return self.quantity
     
     def sell(self, number_sold):
         self.quantity=self.quantity-number_sold
@@ -98,79 +99,88 @@ class Book:
 b1 = Book(title="1984", author="George Orwell", price=29.99, quantity=100)
 b2 = Book(title="flames", author="mathew", price=25, quantity=100)
 
-print(b2.price)
-b2.set_price(30)
-print(b2.price)
+print(b1.set_quantity(200))
+print(Book.set_quantity(b1,200))
 
-class BankAccount:
-    bank_name='jpmorgan'
 
-    def __init__(self,account_number, initial_balance):
-        self.account_number=account_number
-        self.balance=initial_balance
+
+# print(b2.price)
+# b2.set_price(30)
+# print(b2.price)
+
+# class BankAccount:
+#     bank_name='jpmorgan'
+
+#     def __init__(self,account_number, initial_balance):
+#         self.account_number=account_number
+#         self.balance=initial_balance
     
-    def deposit(self,amount):
-        if amount<0:
-            print('invalid amount')
-        else:
-            self.balance=self.balance+amount
+#     def deposit(self,amount):
+#         if amount<0:
+#             print('invalid amount')
+#         else:
+#             self.balance=self.balance+amount
     
-    def withdraw(self, amount):
-        if amount<self.balance:
-            self.balance=self.balance-amount
-    def get_balance(self):
-        return self.balance
+#     def withdraw(self, amount):
+#         if amount<self.balance:
+#             self.balance=self.balance-amount
+#     def get_balance(self):
+#         return self.balance
     
-my_account = BankAccount(account_number="12345678", initial_balance=1000)
+# my_account = BankAccount(account_number="12345678", initial_balance=1000)
 
-# Deposit and withdraw
-my_account.deposit(500)
-my_account.withdraw(200)
-print(my_account.get_balance())  # Output: 1300
+# # Deposit and withdraw
+# my_account.deposit(500)
+# my_account.withdraw(200)
+# print(my_account.get_balance())  # Output: 1300
 
 
-class Broker:
-    stock_prices={'tsla':100,'nifty':600,'amzn':780,'nvda':756}
+# class Broker:
+#     stock_prices={'tsla':100,'nifty':600,'amzn':780,'nvda':756}
     
 
-    def __init__(self,name,acc_no,money):
-        self.account_name=name
-        self.wallet=money
-        self.account_no=acc_no
-        self.portfolio={}
+#     def __init__(self,name,acc_no,money):
+#         self.account_name=name
+#         self.wallet=money
+#         self.account_no=acc_no
+#         self.portfolio={}
 
-    def get_porfolio(self):
-        return self.portfolio
+#     def get_porfolio(self):
+#         return self.portfolio
     
-    def buy_stock(self,name):
-        found=self.stock_prices.get(name)
-        if found:
-            if self.wallet>found:
-                self.portfolio.update({name:found})
-                self.wallet=self.wallet-found
-                return 'buying '+name
-            else:
-                print('not enough money')
-        else:
-            print('not found')
+#     def buy_stock(self,name):
+#         found=self.stock_prices.get(name)
+#         if found:
+#             if self.wallet>found:
+#                 self.portfolio.update({name:found})
+#                 self.wallet=self.wallet-found
+#                 return 'buying '+name
+#             else:
+#                 print('not enough money')
+#         else:
+#             print('not found')
     
-    def sell_stock(self,name):
-        found=self.portfolio.get(name)
-        if found:
-            self.portfolio.pop(name)
-            self.wallet=self.wallet+found
-            return 'selling ' +name
-        else:
-            print('stock not found')
+#     def sell_stock(self,name):
+#         found=self.portfolio.get(name)
+#         if found:
+#             self.portfolio.pop(name)
+#             self.wallet=self.wallet+found
+#             return 'selling ' +name
+#         else:
+#             print('stock not found')
 
         
 
 
-user1=Broker('matt',450,1000)
-print(user1.account_name,user1.wallet,user1.portfolio)
-print(user1.buy_stock('tsla'))
-print(user1.get_porfolio())
-print(user1.buy_stock('nifty'))
-print(user1.get_porfolio())
-print(user1.sell_stock('tsla'))
-print(user1.get_porfolio())
+# user1=Broker('matt',450,1000)
+# print(user1.account_name,user1.wallet,user1.portfolio)
+# print(user1.buy_stock('tsla'))
+# print(user1.get_porfolio())
+# print(user1.buy_stock('nifty'))
+# print(user1.get_porfolio())
+# print(user1.sell_stock('tsla'))
+# print(user1.get_porfolio())
+
+# #self
+# #all method first parameter should be self
+# #if you want to access any attribute (varible ) inside a class then you have to use self
