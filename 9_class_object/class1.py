@@ -83,6 +83,18 @@ class Book:
     def set_price(self, new_price):
         self.price=new_price
 
+    def get_quantity(self):
+        return self.quantity
+    
+    def set_quantity(self, new_quantity):
+        self.quantity=new_quantity
+    
+    def sell(self, number_sold):
+        self.quantity=self.quantity-number_sold
+    
+    def restock(self, number_added): 
+        self.quantity=self.quantity+number_added
+
 b1 = Book(title="1984", author="George Orwell", price=29.99, quantity=100)
 b2 = Book(title="flames", author="mathew", price=25, quantity=100)
 
