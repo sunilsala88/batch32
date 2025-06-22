@@ -127,3 +127,50 @@ my_account = BankAccount(account_number="12345678", initial_balance=1000)
 my_account.deposit(500)
 my_account.withdraw(200)
 print(my_account.get_balance())  # Output: 1300
+
+
+class Broker:
+    stock_prices={'tsla':100,'nifty':600,'amzn':780,'nvda':756}
+    
+
+    def __init__(self,name,acc_no,money):
+        self.account_name=name
+        self.wallet=money
+        self.account_no=acc_no
+        self.portfolio={}
+
+    def get_porfolio(self):
+        return self.portfolio
+    
+    def buy_stock(self,name):
+        found=self.stock_prices.get(name)
+        if found:
+            if self.wallet>found:
+                self.portfolio.update({name:found})
+                self.wallet=self.wallet-found
+                return 'buying '+name
+            else:
+                print('not enough money')
+        else:
+            print('not found')
+    
+    def sell_stock(self,name):
+        found=self.portfolio.get(name)
+        if found:
+            self.portfolio.pop(name)
+            self.wallet=self.wallet+found
+            return 'selling ' +name
+        else:
+            print('stock not found')
+
+        
+
+
+user1=Broker('matt',450,1000)
+print(user1.account_name,user1.wallet,user1.portfolio)
+print(user1.buy_stock('tsla'))
+print(user1.get_porfolio())
+print(user1.buy_stock('nifty'))
+print(user1.get_porfolio())
+print(user1.sell_stock('tsla'))
+print(user1.get_porfolio())
