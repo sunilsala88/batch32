@@ -101,3 +101,29 @@ b2 = Book(title="flames", author="mathew", price=25, quantity=100)
 print(b2.price)
 b2.set_price(30)
 print(b2.price)
+
+class BankAccount:
+    bank_name='jpmorgan'
+
+    def __init__(self,account_number, initial_balance):
+        self.account_number=account_number
+        self.balance=initial_balance
+    
+    def deposit(self,amount):
+        if amount<0:
+            print('invalid amount')
+        else:
+            self.balance=self.balance+amount
+    
+    def withdraw(self, amount):
+        if amount<self.balance:
+            self.balance=self.balance-amount
+    def get_balance(self):
+        return self.balance
+    
+my_account = BankAccount(account_number="12345678", initial_balance=1000)
+
+# Deposit and withdraw
+my_account.deposit(500)
+my_account.withdraw(200)
+print(my_account.get_balance())  # Output: 1300
