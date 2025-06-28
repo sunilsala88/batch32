@@ -17,3 +17,10 @@ from alkdjflkajsdlkfjasdfkjlakdfj import a,demo
 
 print(a)
 print(demo())
+
+import new.file3 as f3
+print(f3.symbol)
+
+
+#linrary,module ,package
+#download/install
