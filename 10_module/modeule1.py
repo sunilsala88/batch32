@@ -19,7 +19,7 @@ import sys
 
 # print('last line')
 
-import selenium
+# import selenium
 
 #install
 #pip install module_name
