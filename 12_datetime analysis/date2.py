@@ -17,6 +17,33 @@ print(df.info())
 # print(df)
 # print(df.info())
 
-f='%d-%m-%Y'
-df['Date Joined']=pd.to_datetime(df['Date Joined'],format=f)
-print(df.info())
+# f='%d-%m-%Y'
+# df['Date Joined']=pd.to_datetime(df['Date Joined'],format=f)
+# print(df.info())
+
+
+data2=pd.read_html('https://en.wikipedia.org/wiki/NIFTY_50')
+data2=data2[1]
+data2
+
+list2=[]
+for i in data2['Date added[16]']:
+    if i[-3]=='[':
+        list2.append(i[:-3])
+    else:
+        list2.append(i)
+data2['Date added[16]']=list2
+print(data2)
+print(data2.info())
+
+
+data2['Date added[16]']=pd.to_datetime(data2['Date added[16]'])
+print(data2.info())
+print(data2)
+
+import datetime as dt
+dt1=dt.datetime.now()
+print(dt1.year)
+data3=data2[data2['Date added[16]'].dt.year>2023]
+l1=data3['Symbol'].to_list()
+print(l1)
