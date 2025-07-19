@@ -77,3 +77,15 @@ d1=dt.datetime(2025,12,24)
 print(d1)
 ans=get_nearest_expiry(d1)
 print(ans)
+
+
+def main_strategy():
+    print('running main strategy')
+
+import time
+while True:
+    dt1=dt.datetime.now()
+    print(dt1)
+    if dt1.second==1 and dt1.minute in range(0,50,5):
+        main_strategy()
+    time.sleep(1)
