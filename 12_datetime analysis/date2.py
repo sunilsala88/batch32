@@ -34,16 +34,22 @@ for i in data2['Date added[16]']:
         list2.append(i)
 data2['Date added[16]']=list2
 print(data2)
-print(data2.info())
+# print(data2.info())
 
 
 data2['Date added[16]']=pd.to_datetime(data2['Date added[16]'])
 print(data2.info())
 print(data2)
 
-import datetime as dt
-dt1=dt.datetime.now()
-print(dt1.year)
-data3=data2[data2['Date added[16]'].dt.year>2023]
-l1=data3['Symbol'].to_list()
-print(l1)
+# import datetime as dt
+# dt1=dt.datetime.now()
+# print(dt1.year)
+# data3=data2[data2['Date added[16]'].dt.year>2023]
+# l1=data3['Symbol'].to_list()
+# print(l1)
+
+print(data2[data2['Date added[16]'].dt.weekday==2]['Symbol'].to_list())
+
+# import yfinance as yf
+# data=yf.download('TSLA',interval='1m',period='3d')
+# print(data.to_csv('data.csv'))
