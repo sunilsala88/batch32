@@ -10,7 +10,7 @@
 #pip install yfinance
 import yfinance as yf
 
-ticker1='BTC-USD'
+ticker1='NVDA'
 # data=yf.download(ticker1,period='5d',multi_level_index=False)
 # print(data)
 
@@ -38,5 +38,6 @@ s=dt.datetime(2020,1,1)
 # data=yf.download(ticker1,start='2025-06-01',end='2025-07-11',interval='30m',multi_level_index=False)
 # print(data)
 
-data=yf.download(ticker1,start='2025-07-14',end='2025-07-20',interval='1m',multi_level_index=False)
+data=yf.download(ticker1,start='2025-07-14',end='2025-07-20',interval='1m',multi_level_index=False,ignore_tz=True)
 print(data)
+
