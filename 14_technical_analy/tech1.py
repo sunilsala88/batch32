@@ -126,8 +126,66 @@ print(d)
 
 
 
+
+def atr(high, low, close, length=None, mamode=None, talib=None, drift=None, offset=None, **kwargs):
+    # Validate arguments
+    length = int(length) if length is not None and length > 0 else 14
+    mamode = mamode.lower() if mamode and isinstance(mamode, str) else "rma"
+    drift = int(drift) if drift is not None and drift >= 1 else 1
+    offset = int(offset) if offset is not None and offset != 0 else 0
+    
+    # If any of the series is None, return None
+    if high is None or low is None or close is None:
+        return None
+    
+    # Calculate True Range (TR)
+    prev_close = close.shift(drift)
+    tr0 = high - low
+    tr1 = (high - prev_close).abs()
+    tr2 = (low - prev_close).abs()
+    tr = pd.concat([tr0, tr1, tr2], axis=1).max(axis=1)
+    
+    # Calculate ATR based on the specified moving average mode
+    if mamode == 'sma':
+        atr_series = tr.rolling(window=length).mean()
+    elif mamode == 'ema':
+        atr_series = tr.ewm(span=length, adjust=False).mean()
+    elif mamode == 'wma':
+        def wma(series, window):
+            weights = np.arange(1, window + 1)
+            def calc(x):
+                return np.dot(x, weights) / weights.sum()
+            return series.rolling(window=window).apply(calc, raw=True)
+        atr_series = wma(tr, length)
+    else:  # Default to RMA (Wilder's MA)
+        atr_series = tr.ewm(alpha=1.0/length, adjust=False).mean()
+    
+    # Convert to percentage if requested
+    if kwargs.get("percent", False):
+        atr_series = atr_series * 100 / close
+    
+    # Apply offset
+    if offset != 0:
+        atr_series = atr_series.shift(offset)
+    
+    # Handle fills
+    fillna = kwargs.get('fillna', None)
+    if fillna is not None:
+        atr_series.fillna(fillna, inplace=True)
+    
+    fill_method = kwargs.get('fill_method', None)
+    if fill_method is not None:
+        atr_series.fillna(method=fill_method, inplace=True)
+    
+    # Name the series
+    mamode_prefix = mamode[0] if mamode else 'r'
+    percent_suffix = 'p' if kwargs.get("percent", False) else ''
+    atr_series.name = f"ATR{mamode_prefix}_{length}{percent_suffix}"
+    
+    return atr_series
+
 #atr
-atr1=ta.atr(data['High'],data['Low'],data['Close'],10)
+atr1=atr(data['High'],data['Low'],data['Close'],10)
 print(atr1)
 
 import mplfinance as mpf
