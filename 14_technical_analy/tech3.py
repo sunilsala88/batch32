@@ -3,6 +3,11 @@ import yfinance as yf
 data=yf.download('NVDA',interval='1h',start='2025-01-25',end='2025-07-27',multi_level_index=False)
 print(data)
 
+#resample to daily data
+d={'Open':'first','High':'max','Low':'min','Close':'last','Volume':'sum'}
+data=data.resample('D').agg(d)
+data.dropna(inplace=True)
+print(data)
 import pandas_ta as ta
 macd=ta.macd(data['Close'])
 print(macd)
@@ -72,10 +77,18 @@ print(macd)
 adx=ta.adx(data['High'], data['Low'], data['Close'])
 print(adx)
 
-import mplfinance as mpf
-a=mpf.make_addplot(adx['ADX_14'],color='black',panel=1)
+# import mplfinance as mpf
+# a=mpf.make_addplot(adx['ADX_14'],color='black',panel=1)
 
-mpf.plot(data,type='candle',style='yahoo',addplot=[a])
+# mpf.plot(data,type='candle',style='yahoo',addplot=[a])
 
 #atr
 #rsi
+
+atr=ta.atr(data['High'], data['Low'], data['Close'])
+print(atr)
+
+import mplfinance as mpf
+a=mpf.make_addplot(atr,color='black',panel=1)
+
+mpf.plot(data,type='candle',style='yahoo',addplot=[a])
