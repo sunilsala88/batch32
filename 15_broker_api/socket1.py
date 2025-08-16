@@ -23,3 +23,5 @@ symbol=['AAVE/USD']
 
 crypto_data_stream_client.subscribe_quotes(sample, *symbol)
 crypto_data_stream_client.run()
+
+print('hello')
