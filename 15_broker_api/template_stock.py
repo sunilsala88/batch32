@@ -5,7 +5,7 @@ from datetime import datetime,timedelta
 import time
 import logging
 import pandas_ta as ta
-
+import sys
 
 from alpaca.trading.requests import GetOrdersRequest,MarketOrderRequest
 from alpaca.trading.enums import OrderSide, QueryOrderStatus,TimeInForce
@@ -19,12 +19,20 @@ from alpaca.trading.client import TradingClient
 api_key='PKCGQ99MC5FQA1P8ZSRE'
 secret_key='rkWLI1F2poiTbuERdzozfOLgVV6mrFKTH27Ugvb1'
 trading_client = TradingClient(api_key, secret_key, paper=True)
-list_of_tickers=["TSLA","AMZN","AAPL",'JPM']
+list_of_tickers=["TSLA","AMZN","AAPL",'JPM','GOOG']
 time_zone='America/New_York'
 strategy_name='stock_sma'
+money=1000
 logging.basicConfig(level=logging.INFO, filename=f'{strategy_name}_{dt.now(tz=time_zone).date()}.log',filemode='a',format="%(asctime)s - %(message)s")
 logging.info(f'starting {strategy_name} strategy file')
 print(f'starting {strategy_name} strategy file')
+
+
+current_money=float(trading_client.get_account().cash)
+print('current money',current_money)
+if current_money<money*len(list_of_tickers):
+    print('not enough money')
+    sys.exit()
 
 
 def get_historical_stock_data(ticker,duration,time_frame_unit):
@@ -93,7 +101,13 @@ def main_strategy_code():
         #fetch historical data and indicators
         hist_df=get_historical_stock_data(ticker,5,TimeFrameUnit.Minute)
         print(hist_df)
+        ltp=hist_df['close'].iloc[-1]
+        print(ltp)
+        quantity=int(money/ltp)
+        print(quantity)
 
+        if quantity<=0:
+            continue
 
 
 current_time=dt.now(tz=time_zone)
@@ -128,3 +142,5 @@ while True:
         main_strategy_code()
     time.sleep(1)
 print('strategy stopped')
+
+
