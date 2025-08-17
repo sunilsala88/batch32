@@ -88,6 +88,70 @@ def get_all_open_orders():
     return order_df
 
 
+def trade_buy_stocks(ticker,closing_price,quantity):
+
+    print('placing market order')
+    # preparing orders
+
+    market_order_data = MarketOrderRequest(
+                        symbol=ticker,
+                        qty=quantity,
+                        side=OrderSide.BUY,
+                        time_in_force=TimeInForce.DAY
+                        )
+
+    # Market order
+    market_order = trading_client.submit_order(
+                    order_data=market_order_data
+                )
+    market_order
+    print(market_order)
+    print('done placing market order buy for ',ticker)
+
+def trade_sell_stocks(ticker,closing_price,quantity):
+    print('placing market order')
+    # preparing orders
+
+    market_order_data = MarketOrderRequest(
+                        symbol=ticker,
+                        qty=quantity,
+                        side=OrderSide.SELL,
+                        time_in_force=TimeInForce.DAY
+                        )
+
+    # Market order
+    market_order = trading_client.submit_order(
+                    order_data=market_order_data
+                )
+    market_order
+    print(market_order)
+    print('done placing market order sell for ',ticker)
+
+
+
+def strategy(hist_df,ticker,quantity):
+    print('inside strategy conditional code ')
+    # print(hist_df)
+    print(ticker)
+    buy_condition=(hist_df['sma_20'].iloc[-1]>hist_df['sma_50'].iloc[-1]) and (hist_df['sma_20'].iloc[-2]<hist_df['sma_50'].iloc[-2])
+    sell_condition=(hist_df['sma_20'].iloc[-1]<hist_df['sma_50'].iloc[-1]) and (hist_df['sma_20'].iloc[-2]>hist_df['sma_50'].iloc[-2])
+                
+   
+    closing_price=hist_df['close'].iloc[-1]
+
+    if buy_condition:
+        print('buy condition satisfied')
+        trade_buy_stocks(ticker,closing_price,quantity)
+    if sell_condition:
+        print('sell conditoin satisfied')
+        trade_sell_stocks(ticker,closing_price,quantity)
+    else:
+        print('no condition satisfied')
+
+
+
+
+
 def main_strategy_code():
     #fetch current pos
     pos_df=get_all_position()
@@ -108,6 +172,14 @@ def main_strategy_code():
 
         if quantity<=0:
             continue
+
+        if pos_df.empty:
+            print('we dont have any position')
+            strategy(hist_df,ticker,quantity)
+
+        elif len(pos_df)!=0 and ticker.replace('/','') not in pos_df['symbol'].to_list():
+            print('we have some position but ticker is not in pos')
+            strategy(hist_df,ticker,quantity)
 
 
 current_time=dt.now(tz=time_zone)
