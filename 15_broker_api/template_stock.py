@@ -35,6 +35,18 @@ if current_money<money*len(list_of_tickers):
     sys.exit()
 
 
+def close_this_position(ticker_name):
+    ticker_name=ticker_name.replace('/','')
+    print(ticker_name)
+    try:
+        # p = trading_client.get_open_position(ticker_name)
+        # print(p)
+        c=trading_client.close_position(ticker_name)
+        print(c)
+        print('position closed')
+    except:
+        print('position does not exist')
+
 def get_historical_stock_data(ticker,duration,time_frame_unit):
     # setup stock historical data client
     stock_historical_data_client = StockHistoricalDataClient(api_key, secret_key)
@@ -181,6 +193,33 @@ def main_strategy_code():
             print('we have some position but ticker is not in pos')
             strategy(hist_df,ticker,quantity)
 
+        elif len(pos_df)!=0 and ticker.replace('/','')  in pos_df['symbol'].to_list():
+            print('we have some pos and ticker is in pos')
+            curr_quant=float(pos_df[pos_df['symbol']==ticker.replace('/','')]['qty'].iloc[-1])
+            print(curr_quant)
+
+            if curr_quant==0:
+                print('my quantity is 0')
+                strategy(hist_df,ticker)
+            elif curr_quant>0:
+                print('we are already long')
+                sell_condition=(hist_df['sma_20'].iloc[-1]<hist_df['sma_50'].iloc[-1]) and (hist_df['sma_20'].iloc[-2]>hist_df['sma_50'].iloc[-2])
+                if sell_condition:
+                    print('sell condition is satisfied ')
+                    close_this_position(ticker.replace('/',''))
+                    trade_sell_stocks(ticker,ltp)
+
+                else:
+                    print('sell condition not satisfied')
+            elif curr_quant<0:
+                print('we are already short')
+                buy_condition=(hist_df['sma_20'].iloc[-1]>hist_df['sma_50'].iloc[-1]) and (hist_df['sma_20'].iloc[-2]<hist_df['sma_50'].iloc[-2])
+                if buy_condition:
+                    print('buy condition is satisfied ')
+                    close_this_position(ticker.replace('/',''))
+                    trade_buy_stocks(ticker,ltp)
+                else:
+                    print('buy condition not satisfied')
 
 current_time=dt.now(tz=time_zone)
 print(current_time)
