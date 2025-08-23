@@ -4,33 +4,34 @@
 #backtesting py 
 #good things -easy,good charting ,free,beginner friendly
 
-from backtesting import Backtest, Strategy
-from backtesting.lib import crossover
-
-from backtesting.test import SMA, GOOG
 
 
-class SmaCross(Strategy):
-    n1 = 10
-    n2 = 20
 
+#fech data
+
+import yfinance as yf
+import pandas_ta as ta
+from backtesting import Backtest,Strategy
+data=yf.download('TSLA',period='5y',multi_level_index=False)
+print(data)
+
+
+def get_sma(close_price,lengtht):
+    sma=ta.sma(close_price,lengtht)
+    return sma
+
+class sma_strategy(Strategy):
+    
     def init(self):
-        close = self.data.Close
-        self.sma1 = self.I(SMA, close, self.n1)
-        self.sma2 = self.I(SMA, close, self.n2)
+        pass
 
     def next(self):
-        if crossover(self.sma1, self.sma2):
-            self.position.close()
-            self.buy()
-        elif crossover(self.sma2, self.sma1):
-            self.position.close()
-            self.sell()
+        pass
 
-
-bt = Backtest(GOOG, SmaCross,
-              cash=10000, commission=.002,
-              exclusive_orders=True)
-
-output = bt.run()
+bt=Backtest(data,sma_strategy,cash=1000)
+result=bt.run()
 bt.plot()
+print(result)
+
+
+
