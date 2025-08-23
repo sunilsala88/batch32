@@ -17,7 +17,8 @@ from alpaca.data.timeframe import TimeFrame, TimeFrameUnit
 from alpaca.data.requests import CryptoBarsRequest
 
 from alpaca.trading.client import TradingClient
-from credentials import api_key,secret_key
+api_key='PKCGQ99MC5FQA1P8ZSRE'
+secret_key='rkWLI1F2poiTbuERdzozfOLgVV6mrFKTH27Ugvb1'
 trading_client = TradingClient(api_key, secret_key, paper=True)
 
 list_of_tickers=["ETH/USD",'AAVE/USD']
@@ -89,7 +90,7 @@ def get_all_position():
     pos_df.to_csv('position1.csv')
     return pos_df
 
-
+get_all_position()
 
 def close_this_position(ticker_name):
     ticker_name=ticker_name.replace('/','')
