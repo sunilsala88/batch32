@@ -42,5 +42,6 @@ result=bt.run()
 bt.plot()
 print(result)
 
+result['_trades'].to_csv('trades.csv')
 
 
