@@ -12,7 +12,7 @@
 import yfinance as yf
 import pandas_ta as ta
 from backtesting import Backtest,Strategy
-data=yf.download('TSLA',period='5y',multi_level_index=False)
+data=yf.download('^NSEBANK',start='2025-01-01',end='2025-08-20',interval='1h',multi_level_index=False)
 print(data)
 
 
@@ -21,8 +21,8 @@ def get_sma(close_price,lengtht):
     return sma
 
 class sma_strategy(Strategy):
-    s1=20
-    s2=50
+    s1=30
+    s2=60
     def init(self):
         self.sma1=self.I(get_sma,self.data.df.Close,self.s1)
         self.sma2=self.I(get_sma,self.data.df.Close,self.s2)
@@ -37,7 +37,7 @@ class sma_strategy(Strategy):
                 self.position.close()
             self.sell()
 
-bt=Backtest(data,sma_strategy,cash=1000)
+bt=Backtest(data,sma_strategy,cash=100_000,commission=0.01)
 result=bt.run()
 bt.plot()
 print(result)
