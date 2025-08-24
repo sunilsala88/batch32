@@ -2,7 +2,7 @@
 from backtesting import Strategy,Backtest
 import pandas_ta as ta
 import yfinance as yf
-data=yf.download('GOOG',period='1y',interval='1h',multi_level_index=False)
+data=yf.download('GOOG',period='3y',interval='1d',multi_level_index=False)
 print(data)
 
 def upper(close,l):
@@ -22,7 +22,7 @@ def middle(close,l):
 
 
 class Bollinger(Strategy):
-    bl=10
+    bl=30
     def init(self):
         self.upper=self.I(upper,self.data.df.Close,self.bl)
         self.lower=self.I(lower,self.data.df.Close,self.bl)
@@ -30,22 +30,28 @@ class Bollinger(Strategy):
 
     def next(self):
         
-        if self.lower[-1]>self.data.Close[-1]:
-            # if self.position.is_short:
-            #     self.position.close()
-            self.buy()
-        elif self.upper[-1]<self.data.Close[-1]:
-            # if self.position.is_long:
-            #     self.position.close()
-            self.sell()
-        
-        if self.position.is_long and self.data.Close[-1]>self.middle[-1]:
-            self.position.close()
-        elif self.position.is_short and self.data.Close[-1]<self.middle[-1]:
-            self.position.close()
+        # if not self.position:
+            if self.lower[-1]>self.data.Close[-1] and not  self.position:
+                self.buy()
+            elif self.upper[-1]<self.data.Close[-1] and not self.position:
+                self.sell()
+            
+            if self.position.is_long and self.upper[-1]<self.data.Close[-1]:
+                 self.position.close()
+            elif self.position.is_short and self.lower[-1]>self.data.Close[-1]:
+                 self.position.close()        
+        # if self.position.is_long and self.data.Close[-1]>self.middle[-1]:
+        #     self.position.close()
+        # elif self.position.is_short and self.data.Close[-1]<self.middle[-1]:
+        #     self.position.close()
 
 
-bt=Backtest(data,Bollinger,cash=1000,commission=0.01)
+bt=Backtest(data,Bollinger,cash=1000000,commission=0.01)
 result=bt.run()
 print(result)
+# bt.plot()
+
+output=bt.optimize(bl=range(10,100,5),maximize='Return [%]')
+print(output)
+print(output['_strategy'])
 bt.plot()
