@@ -12,7 +12,7 @@
 import yfinance as yf
 import pandas_ta as ta
 from backtesting import Backtest,Strategy
-data=yf.download('^NSEBANK',start='2025-01-01',end='2025-08-20',interval='1h',multi_level_index=False)
+data=yf.download('ETH-USD',start='2025-01-01',end='2025-08-20',interval='1h',multi_level_index=False)
 print(data)
 
 
@@ -37,7 +37,7 @@ class sma_strategy(Strategy):
                 self.position.close()
             self.sell()
 
-bt=Backtest(data,sma_strategy,cash=100_000,commission=0.01)
+bt=Backtest(data,sma_strategy,cash=1000_000,commission=0.01,finalize_trades=True)
 result=bt.run()
 bt.plot()
 print(result)
@@ -46,3 +46,7 @@ result['_trades'].to_csv('trades.csv')
 
 
 
+output=bt.optimize(s1=range(5,50,2),s2=range(60,120,2),maximize='Return [%]')
+print(output)
+print(output['_strategy'])
+bt.plot()
