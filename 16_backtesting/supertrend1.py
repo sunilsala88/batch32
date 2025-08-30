@@ -110,10 +110,12 @@ class Superstrategy(Strategy):
 
         if self.trend[-1]==1 and ((not self.position) or (self.position.is_short)):
             self.position.close()
-            self.buy()
+            close=self.data.Close[-1]
+            self.buy(sl=0.95*close)
         elif self.trend[-1]==-1 and ((not self.position) or (self.position.is_long)):
             self.position.close()
-            self.sell()
+            close=self.data.Close[-1]
+            self.sell(sl=1.05*close)
 
 
 print(super1(data['High'],data['Low'],data['Close']))
@@ -122,4 +124,11 @@ print(trend(data['High'],data['Low'],data['Close']))
 bt=Backtest(data,Superstrategy,cash=10_000)
 output=bt.run()
 print(output)
+bt.plot()
+
+
+
+output=bt.optimize(l=range(5,50,5),m=range(2,6,1),maximize='Return [%]')
+print(output)
+print(output['_strategy'])
 bt.plot()
