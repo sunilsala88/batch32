@@ -16,8 +16,8 @@ import time
 ct=time.time()
 req = StockBarsRequest(
     symbol_or_symbols = 'AMZN',
-    timeframe=TimeFrame(amount = 5, unit = TimeFrameUnit.Minute), # specify timeframe
-    start = current_time-dt.duration(days=1000),                          # specify start datetime, default=the beginning of the current day.
+    timeframe=TimeFrame(amount = 1, unit = TimeFrameUnit.Minute), # specify timeframe
+    start = current_time-dt.duration(days=50),                          # specify start datetime, default=the beginning of the current day.
     end_date=current_time,                                        # specify end datetime, default=now
     # limit = 2,                                               # specify limit
 )
