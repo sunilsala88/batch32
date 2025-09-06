@@ -26,6 +26,14 @@ class TrailingStopLossStrategy(Strategy):
             # Update the stop-loss price if the current price is higher than the previous stop-loss price
             if trailing_stop_price > self.trades[0].sl:
                 self.trades[0].sl = trailing_stop_price
+        
+        if self.position.is_short:
+            current_price = self.data.Close[-1]
+            trailing_stop_price = current_price * (1 + self.trailing_stop_pct)
+            
+            # Update the stop-loss price if the current price is higher than the previous stop-loss price
+            if trailing_stop_price < self.trades[0].sl:
+                self.trades[0].sl = trailing_stop_price
 
         # If we don't have a position, check for a crossover to enter a long position
         if (self.sma1[-1]>self.sma2[-1]) and (self.sma1[-2]<self.sma2[-2]) :
@@ -38,9 +46,11 @@ class TrailingStopLossStrategy(Strategy):
         elif (self.sma1[-1]<self.sma2[-1]) and (self.sma1[-2]>self.sma2[-2]) :
             if (self.position.is_long):
                 self.position.close()
-            # self.sell()
+            current_price = self.data.Close[-1]
+            trailing_stop_price = current_price * (1 + self.trailing_stop_pct)
+            self.sell(sl=trailing_stop_price)
 
-data=yf.download('TSLA',period='5y')
+data=yf.download('NVDA',period='5y')
 data.columns=[i[0] for i in data.columns]
 print(data)
 
