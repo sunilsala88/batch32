@@ -1,0 +1,63 @@
+2025-09-06 17:25:57,681 - Buying 1 of AAVE/USD at 299.12
+2025-09-06 17:26:10,174 - Buying 1 of ETH/USD at 4300.56
+2025-09-06 17:26:21,984 - Buying 1 of SOL/USD at 202.445
+2025-09-06 17:32:11,026 - Sell condition satisfied for AAVE/USD
+2025-09-06 17:32:18,208 - Sell condition satisfied for ETH/USD
+2025-09-06 17:32:24,691 - Sell condition satisfied for SOL/USD
+2025-09-06 17:32:26,730 - Placing stop order for 1.0 of AAVE/USD at 593.0495999999999
+2025-09-06 17:32:27,236 - Placing stop order for 1.0 of ETH/USD at 8518.19166
+2025-09-06 17:32:27,949 - Placing stop order for 1.0 of SOL/USD at 400.93812
+2025-09-06 17:33:25,615 - Sell condition satisfied for AAVE/USD
+2025-09-06 17:33:34,751 - Sell condition satisfied for ETH/USD
+2025-09-06 17:33:45,031 - Sell condition satisfied for SOL/USD
+2025-09-06 17:35:12,286 - Sell condition satisfied for AAVE/USD
+2025-09-06 17:35:47,222 - Sell condition satisfied for ETH/USD
+2025-09-06 17:36:22,224 - Sell condition satisfied for SOL/USD
+2025-09-06 17:37:18,133 - Sell condition satisfied for AAVE/USD
+2025-09-06 17:37:26,807 - Sell condition satisfied for ETH/USD
+2025-09-06 17:37:40,277 - Sell condition satisfied for SOL/USD
+2025-09-06 17:41:10,449 - Sell condition satisfied for AAVE/USD
+2025-09-06 17:41:10,680 - Closing position for AAVEUSD
+2025-09-06 17:41:23,304 - Sell condition satisfied for ETH/USD
+2025-09-06 17:41:23,544 - Closing position for ETHUSD
+2025-09-06 17:41:35,484 - Sell condition satisfied for SOL/USD
+2025-09-06 17:41:35,780 - Closing position for SOLUSD
+2025-09-06 17:42:13,889 - Sell condition satisfied for AAVE/USD
+2025-09-06 17:42:14,137 - Closing position for AAVEUSD
+2025-09-06 17:42:30,533 - Sell condition satisfied for ETH/USD
+2025-09-06 17:42:30,831 - Closing position for ETHUSD
+2025-09-06 17:42:41,031 - Sell condition satisfied for SOL/USD
+2025-09-06 17:42:41,387 - Closing position for SOLUSD
+2025-09-06 17:44:09,399 - Sell condition satisfied for AAVE/USD
+2025-09-06 17:44:09,630 - Closing position for AAVE/USD
+2025-09-06 17:48:21,450 - Closing order for AAVE/USD
+2025-09-06 17:52:10,269 - Buying 1 of AAVE/USD at 299.7255
+2025-09-06 17:52:18,304 - Sell condition satisfied for ETH/USD
+2025-09-06 17:52:18,997 - Closing order for ETH/USD
+2025-09-06 17:52:29,256 - Sell condition satisfied for SOL/USD
+2025-09-06 17:52:29,564 - Closing order for SOL/USD
+2025-09-06 17:52:32,466 - Placing stop order for 1.0 of AAVE/USD at 594.495
+2025-09-06 17:53:13,419 - Sell condition satisfied for AAVE/USD
+2025-09-06 17:53:13,727 - Closing order for AAVE/USD
+2025-09-06 17:53:23,295 - Sell condition satisfied for ETH/USD
+2025-09-06 17:53:47,931 - Sell condition satisfied for SOL/USD
+2025-09-06 17:53:51,038 - Placing stop order for 1.0 of ETH/USD at 8518.19166
+2025-09-06 17:53:51,566 - Placing stop order for 1.0 of SOL/USD at 400.93812
+2025-09-06 17:55:09,990 - Sell condition satisfied for AAVE/USD
+2025-09-06 17:55:29,483 - Sell condition satisfied for ETH/USD
+2025-09-06 17:55:38,318 - Sell condition satisfied for SOL/USD
+2025-09-06 17:56:50,198 - Sell condition satisfied for AAVE/USD
+2025-09-06 17:56:56,918 - Sell condition satisfied for ETH/USD
+2025-09-06 17:58:11,614 - Sell condition satisfied for AAVE/USD
+2025-09-06 17:58:15,104 - Closing position for AAVE/USD
+2025-09-06 17:58:28,168 - Sell condition satisfied for ETH/USD
+2025-09-06 17:58:31,845 - Closing position for ETH/USD
+2025-09-06 17:59:53,075 - Buying 1 of AAVE/USD at 299.345
+2025-09-06 17:59:59,885 - Buying 1 of ETH/USD at 4300.215
+2025-09-06 18:00:06,879 - Sell condition satisfied for SOL/USD
+2025-09-06 18:00:10,371 - Closing position for SOL/USD
+2025-09-06 18:01:10,455 - Sell condition satisfied for AAVE/USD
+2025-09-06 18:01:13,949 - Closing position for AAVE/USD
+2025-09-06 18:01:29,605 - Sell condition satisfied for ETH/USD
+2025-09-06 18:01:33,218 - Closing position for ETH/USD
+2025-09-06 18:01:41,235 - Buying 1 of SOL/USD at 202.74

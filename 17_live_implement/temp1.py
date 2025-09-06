@@ -39,8 +39,8 @@ list_of_tickers=["AAVE/USD","ETH/USD",'SOL/USD']
 time_frame=1
 time_frame_unit=TimeFrameUnit.Minute
 days=20
-start_hour,start_min=13,31
-end_hour,end_min=15,35
+start_hour,start_min=7,1
+end_hour,end_min=9,35
 time_zone='America/New_York'
 strategy_name='crypto_supertrend_ema_strategy'
 stop_perc=2
@@ -56,9 +56,14 @@ try:
     trades_info=pd.read_csv('trades.csv')  
 
 except:
-    trades_info=pd.DataFrame(columns=['Date','symbol','side','quantity','sl','tp'])
+    trades_info=pd.DataFrame(columns=['Date','symbol','side','price','quantity','sl','tp'])
 
 trades_info.set_index('Date',inplace=True)
+print(trades_info)
+# trades_info.loc[dt.now()]=['goog','buy',200,1,195,205]
+# trades_info.to_csv('trades.csv')
+import sys
+# sys.exit()
 
 
 
@@ -123,14 +128,16 @@ def get_open_orders():
 
 def close_this_crypto_position(ticker_name):
     try:
-        position = trading_client.get_open_position(ticker_name)
+        position = trading_client.get_open_position(ticker_name.replace('/',''))
         print(position)
         logging.info(f'Closing position for {ticker_name}')
-        c=trading_client.close_position(ticker_name)
+        c=trading_client.close_position(ticker_name.replace('/',''))
         print(c)
         print('position closed')
+        return True
     except:
         print('position does not exist')
+        return False
 
 def close_this_order_for_crypto(ticker_name):
     order_df=get_open_orders()
@@ -160,7 +167,13 @@ def check_market_order_placed(ticker):
 
 
 
+# close_this_order_for_crypto('AAVE/USD')
+# d=trading_client.close_position('AAVEUSD')
+# print(d)
+# sys.exit()
+
 def trade_sell_stocks(symbol,stock_price,stop_price,quantity=1):
+    global trades_info
     logging.info(f'Selling {quantity} of {symbol} at {stock_price}')
     if check_market_order_placed(symbol):
 
@@ -176,11 +189,13 @@ def trade_sell_stocks(symbol,stock_price,stop_price,quantity=1):
                         order_data=market_order_data
                     )
         print(market_order)
+    trades_info.loc[dt.now()]=[symbol,'buy',stock_price,quantity,0,0]
 
 
 
 
 def trade_buy_stocks(symbol,stock_price,stop_price,quantity=1):
+    global trades_info
     logging.info(f'Buying {quantity} of {symbol} at {stock_price}')
 
     if check_market_order_placed(symbol):
@@ -197,6 +212,7 @@ def trade_buy_stocks(symbol,stock_price,stop_price,quantity=1):
                         order_data=market_order_data
                     )
         print(market_order)
+        trades_info.loc[dt.now()]=[symbol,'buy',stock_price,quantity,0,0]
 
 
 def place_stop_order_stock(symbol,stop_price,quantity,side):
@@ -330,17 +346,23 @@ def main_strategy():
             elif curr_quant>0:
                 print('we are already long')
                 sell_condition=hist_df_hourly['super'].iloc[-1]<0 and hist_df_daily['ema'].iloc[-1]>hist_df_hourly['close'].iloc[-1]
+                sell_condition=True
                 if sell_condition:
                     print('sell condition is satisfied ')
                     logging.info(f'Sell condition satisfied for {ticker}')
-                    close_this_crypto_position(ticker)
+                    close_this_order_for_crypto(ticker)
+                    time.sleep(3)
+                    a=close_this_crypto_position(ticker)
+                    if a:
+                        trades_info.loc[dt.now()]=[ticker,'sell',closing_price,quantity,0,0]
                 else:
                     print('sell condition not satisfied')
         
     time.sleep(1)
-    check_and_place_stop_order(pos_df,ord_df)
+    # check_and_place_stop_order(pos_df,ord_df)
+    trades_info.to_csv('trades.csv')
 
-main_strategy()
+# main_strategy()
 
 current_time=dt.now(time_zone)
 print(current_time)
@@ -358,15 +380,16 @@ while dt.now(time_zone)<start_time :
 
 print('we have reached start time ')
 print('we are running our strategy now')
-main_strategy()
 
+main_strategy()
 while True:
     if dt.now(time_zone)>end_time:
         break
     ct=dt.now(time_zone)
     print(ct)
-    if ct.second in range(2,3) and ct.minute in range(0,60,time_frame):
+    # if ct.second in range(2,3) and ct.minute in range(0,60,time_frame):
         # ct.second in range(2,4) and ct.minute==1
+    if ct.second==1:
         main_strategy()
     time.sleep(1)
 
