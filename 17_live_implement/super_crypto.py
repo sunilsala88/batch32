@@ -8,7 +8,7 @@
 
 import pendulum as dt
 import pandas as pd
-import pandas_ta as ta
+import numpy as np
 import time
 import logging
 
@@ -61,6 +61,107 @@ except:
 trades_info.set_index('Date',inplace=True)
 
 
+def save_trade_info(symbol, side, quantity, sl=None, tp=None):
+    """Save trade information to trades.csv file"""
+    global trades_info
+    current_time = dt.now(time_zone).strftime('%Y-%m-%d %H:%M:%S')
+    
+    new_trade = {
+        'Date': current_time,
+        'symbol': symbol,
+        'side': side,
+        'quantity': quantity,
+        'sl': sl,
+        'tp': tp
+    }
+    
+    # Add new trade to the DataFrame
+    new_trade_df = pd.DataFrame([new_trade])
+    new_trade_df.set_index('Date', inplace=True)
+    trades_info = pd.concat([trades_info, new_trade_df])
+    
+    # Save to CSV
+    trades_info.to_csv('trades.csv')
+    logging.info(f'Trade saved: {symbol} {side} {quantity} at {current_time}')
+    print(f'Trade information saved to trades.csv')
+
+
+def calculate_ema(data, length):
+    """Calculate Exponential Moving Average"""
+    return data.ewm(span=length, adjust=False).mean()
+
+
+def calculate_atr(high, low, close, length=14):
+    """Calculate Average True Range"""
+    # True Range calculation
+    tr1 = high - low
+    tr2 = abs(high - close.shift(1))
+    tr3 = abs(low - close.shift(1))
+    
+    # True Range is the maximum of the three
+    true_range = pd.concat([tr1, tr2, tr3], axis=1).max(axis=1)
+    
+    # ATR is the EMA of True Range
+    atr = calculate_ema(true_range, length)
+    
+    return atr
+
+
+def calculate_supertrend(high, low, close, length=10, multiplier=3.0):
+    """Calculate Supertrend indicator"""
+    # Calculate ATR
+    atr = calculate_atr(high, low, close, length)
+    
+    # Calculate basic upper and lower bands
+    hl2 = (high + low) / 2
+    upper_band = hl2 + (multiplier * atr)
+    lower_band = hl2 - (multiplier * atr)
+    
+    # Initialize final upper and lower bands
+    final_upper_band = pd.Series(index=close.index, dtype=float)
+    final_lower_band = pd.Series(index=close.index, dtype=float)
+    supertrend = pd.Series(index=close.index, dtype=float)
+    direction = pd.Series(index=close.index, dtype=int)
+    
+    for i in range(len(close)):
+        if i == 0:
+            final_upper_band.iloc[i] = upper_band.iloc[i]
+            final_lower_band.iloc[i] = lower_band.iloc[i]
+            supertrend.iloc[i] = upper_band.iloc[i]
+            direction.iloc[i] = -1
+        else:
+            # Calculate final upper band
+            if upper_band.iloc[i] < final_upper_band.iloc[i-1] or close.iloc[i-1] > final_upper_band.iloc[i-1]:
+                final_upper_band.iloc[i] = upper_band.iloc[i]
+            else:
+                final_upper_band.iloc[i] = final_upper_band.iloc[i-1]
+            
+            # Calculate final lower band
+            if lower_band.iloc[i] > final_lower_band.iloc[i-1] or close.iloc[i-1] < final_lower_band.iloc[i-1]:
+                final_lower_band.iloc[i] = lower_band.iloc[i]
+            else:
+                final_lower_band.iloc[i] = final_lower_band.iloc[i-1]
+            
+            # Calculate supertrend direction
+            if close.iloc[i] <= final_lower_band.iloc[i]:
+                direction.iloc[i] = -1
+            elif close.iloc[i] >= final_upper_band.iloc[i]:
+                direction.iloc[i] = 1
+            else:
+                direction.iloc[i] = direction.iloc[i-1]
+            
+            # Calculate supertrend value
+            if direction.iloc[i] == 1:
+                supertrend.iloc[i] = final_lower_band.iloc[i]
+            else:
+                supertrend.iloc[i] = final_upper_band.iloc[i]
+    
+    # Convert direction to signal (1 for bullish, -1 for bearish)
+    signal = direction * -1  # Flip the direction for traditional supertrend signal
+    
+    return signal
+
+
 
 
 def get_historical_crypto_data(ticker,duration,time_frame_unit):
@@ -77,9 +178,11 @@ def get_historical_crypto_data(ticker,duration,time_frame_unit):
     sdata=history_df1.reset_index().drop('symbol',axis=1)
     sdata['timestamp']=sdata['timestamp'].dt.tz_convert('America/New_York')
     sdata=sdata.set_index('timestamp')
-    sdata['ema']=ta.ema(sdata['close'],length=10)
-    sdata['super']=ta.supertrend(sdata.high,sdata.low,sdata.close,length=10)['SUPERTd_10_3.0']
-    sdata['atr']=ta.atr(sdata.high, sdata.low, sdata.close, length=14)
+    
+    # Use our custom indicator functions
+    sdata['ema'] = calculate_ema(sdata['close'], length=10)
+    sdata['super'] = calculate_supertrend(sdata['high'], sdata['low'], sdata['close'], length=10)
+    sdata['atr'] = calculate_atr(sdata['high'], sdata['low'], sdata['close'], length=14)
 
     return sdata
 
@@ -94,10 +197,17 @@ def get_open_position():
         new_pos.append(dict(elem))
 
     pos_df=pd.DataFrame(new_pos)
+    print("All positions:")
     print(pos_df)
-    #filter pos that are in list_of_tickers
-    l=[i.replace("/","") for i in list_of_tickers]
-    pos_df=pos_df[pos_df['symbol'].str.replace('/','').isin(l)]
+    
+    if not pos_df.empty:
+        #filter pos that are in list_of_tickers
+        l=[i.replace("/","") for i in list_of_tickers]
+        print(f"Looking for positions in: {l}")
+        pos_df=pos_df[pos_df['symbol'].isin(l)]
+        print("Filtered positions:")
+        print(pos_df)
+    
     return pos_df
 
 def get_open_orders():
@@ -122,29 +232,68 @@ def get_open_orders():
 
 
 def close_this_crypto_position(ticker_name):
+    # Convert ticker format if needed (remove "/" for position symbol)
+    position_symbol = ticker_name.replace('/', '') if '/' in ticker_name else ticker_name
+    
+    # First close all open orders for this instrument
+    close_this_order_for_crypto(ticker_name)
+    
     try:
-        position = trading_client.get_open_position(ticker_name)
-        print(position)
-        logging.info(f'Closing position for {ticker_name}')
-        c=trading_client.close_position(ticker_name)
-        print(c)
+        position = trading_client.get_open_position(position_symbol)
+        print(f"Position found: {position}")
+        logging.info(f'Closing position for {position_symbol}')
+        
+        # Get position details before closing
+        quantity = abs(float(position.qty))
+        # Get the original position side for logging purposes
+        original_position_side = str(position.side).upper()  # 'LONG' or 'SHORT'
+        
+        # The closing order side (opposite of position side)
+        closing_order_side = 'SELL' if str(position.side).lower() == 'long' else 'BUY'
+        
+        print(f"Closing {original_position_side} position of {quantity} {position_symbol} with {closing_order_side} order")
+        
+        c=trading_client.close_position(position_symbol)
+        print(f"Position close response: {c}")
         print('position closed')
-    except:
-        print('position does not exist')
+        
+        # Save trade information for position close - record as "CLOSE_LONG" or "CLOSE_SHORT"
+        trade_side = f"CLOSE_{original_position_side}"
+        save_trade_info(ticker_name, trade_side, quantity)
+        
+    except Exception as e:
+        print(f'position does not exist for {ticker_name}: {e}')
+        logging.info(f'Could not close position for {ticker_name}: {e}')
 
 def close_this_order_for_crypto(ticker_name):
+    # Handle both formats: "ETH/USD" and "ETHUSD" 
+    # Orders are stored in the format without "/" so convert if needed
+    order_symbol = ticker_name.replace('/', '') if '/' in ticker_name else ticker_name
+    
     order_df=get_open_orders()
     if not order_df.empty:
-        order_df=order_df[order_df['symbol']==ticker_name]
-        print(order_df)
-        if not order_df.empty:
-            for id in order_df['id'].to_list():
+        # Check for orders with both the original ticker format and without "/"
+        matching_orders = order_df[
+            (order_df['symbol'] == ticker_name) | 
+            (order_df['symbol'] == order_symbol)
+        ]
+        print(f"Found orders for {ticker_name}:")
+        print(matching_orders)
+        
+        if not matching_orders.empty:
+            for id in matching_orders['id'].to_list():
                 try:
                     logging.info(f'Closing order for {ticker_name}')
                     response = trading_client.cancel_order_by_id(id)
                     print(response)
-                except:
-                    print('order does not exist',ticker_name)
+                    print(f'Order {id} cancelled for {ticker_name}')
+                except Exception as e:
+                    print(f'order does not exist {ticker_name}: {e}')
+                    logging.info(f'Could not cancel order {id} for {ticker_name}: {e}')
+        else:
+            print(f'No orders found for {ticker_name}')
+    else:
+        print('No open orders found')
                 
 
 def check_market_order_placed(ticker):
@@ -176,6 +325,9 @@ def trade_sell_stocks(symbol,stock_price,stop_price,quantity=1):
                         order_data=market_order_data
                     )
         print(market_order)
+        
+        # Save trade information
+        save_trade_info(symbol, 'SELL', quantity, sl=stop_price)
 
 
 
@@ -197,6 +349,9 @@ def trade_buy_stocks(symbol,stock_price,stop_price,quantity=1):
                         order_data=market_order_data
                     )
         print(market_order)
+        
+        # Save trade information
+        save_trade_info(symbol, 'BUY', quantity, sl=stop_price)
 
 
 def place_stop_order_stock(symbol,stop_price,quantity,side):
@@ -330,6 +485,7 @@ def main_strategy():
             elif curr_quant>0:
                 print('we are already long')
                 sell_condition=hist_df_hourly['super'].iloc[-1]<0 and hist_df_daily['ema'].iloc[-1]>hist_df_hourly['close'].iloc[-1]
+                sell_condition=True
                 if sell_condition:
                     print('sell condition is satisfied ')
                     logging.info(f'Sell condition satisfied for {ticker}')
