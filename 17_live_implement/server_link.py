@@ -1,2 +1,5 @@
 
-#https://www.dpbolvw.net/click-101531693-17082116
+
+# contabo server affiliate link
+
+# https://www.kqzyfj.com/click-101531693-17049164
