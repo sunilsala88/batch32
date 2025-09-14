@@ -1,0 +1,1264 @@
+ this is my first line
+ Taking positions at 10:15, spot price: 43302.45
+ Calculated range: High=43362.05, Low=42965.2, ATM Strike=43300
+ Sold ATM options - Call: 285.95, Put: 308.65, Balance: 2594.6
+ Closing call position above high: 302.85, Balance: 2291.75
+ Re-entering call position below high: 306.35, Balance: 2598.1
+ Closing positions at 15:25
+ Bought back ATM call option: 256.3, Balance: 2341.7999999999997
+ Bought back ATM put option: 291.4, Balance: 2050.3999999999996
+ Taking positions at 10:15, spot price: 43399.3
+ Calculated range: High=43414.4, Low=43151.45, ATM Strike=43300
+ Sold ATM options - Call: 324.0, Put: 187.05, Balance: 2561.45
+ Closing call position above high: 316.1, Balance: 2245.35
+ Re-entering call position below high: 307.05, Balance: 2552.4
+ Closing call position above high: 310.35, Balance: 2242.05
+ Re-entering call position below high: 273.05, Balance: 2515.1000000000004
+ Closing call position above high: 330.7, Balance: 2184.4000000000005
+ Re-entering call position below high: 294.75, Balance: 2479.1500000000005
+ Closing call position above high: 310.5, Balance: 2168.6500000000005
+ Closing positions at 15:25
+ Bought back ATM put option: 140.0, Balance: 2028.6500000000005
+ Taking positions at 10:15, spot price: 43279.8
+ Calculated range: High=43577.35, Low=43181.65, ATM Strike=43200
+ Sold ATM options - Call: 231.15, Put: 192.5, Balance: 2452.3000000000006
+ Closing put position below low: 230.55, Balance: 2221.7500000000005
+ Closing positions at 15:25
+ Bought back ATM call option: 107.1, Balance: 2114.6500000000005
+ Taking positions at 10:15, spot price: 42756.6
+ Calculated range: High=43132.05, Low=42730.9, ATM Strike=42700
+ Sold ATM options - Call: 528.0, Put: 291.9, Balance: 2934.5500000000006
+ Closing put position below low: 364.0, Balance: 2570.5500000000006
+ Closing positions at 15:25
+ Bought back ATM call option: 311.05, Balance: 2259.5000000000005
+ Taking positions at 10:15, spot price: 42326.7
+ Calculated range: High=42685.9, Low=42301.6, ATM Strike=42300
+ Sold ATM options - Call: 377.3, Put: 328.2, Balance: 2965.0000000000005
+ Closing put position below low: 311.9, Balance: 2653.1000000000004
+ Re-entering put position above low: 313.2, Balance: 2966.3
+ Closing put position below low: 332.55, Balance: 2633.75
+ Re-entering put position above low: 289.3, Balance: 2923.05
+ Closing put position below low: 302.4, Balance: 2620.65
+ Re-entering put position above low: 305.6, Balance: 2926.25
+ Closing put position below low: 307.65, Balance: 2618.6
+ Re-entering put position above low: 300.5, Balance: 2919.1
+ Closing put position below low: 300.85, Balance: 2618.25
+ Re-entering put position above low: 290.45, Balance: 2908.7
+ Closing put position below low: 319.0, Balance: 2589.7
+ Closing positions at 15:25
+ Bought back ATM call option: 284.05, Balance: 2305.6499999999996
+ Taking positions at 10:15, spot price: 42520.65
+ Calculated range: High=42543.85, Low=42189.6, ATM Strike=42500
+ Sold ATM options - Call: 318.75, Put: 257.15, Balance: 2881.5499999999997
+ Closing call position above high: 324.55, Balance: 2556.9999999999995
+ Re-entering call position below high: 329.05, Balance: 2886.0499999999997
+ Closing call position above high: 325.1, Balance: 2560.95
+ Re-entering call position below high: 339.55, Balance: 2900.5
+ Closing call position above high: 337.35, Balance: 2563.15
+ Re-entering call position below high: 323.35, Balance: 2886.5
+ Closing call position above high: 332.35, Balance: 2554.15
+ Re-entering call position below high: 356.85, Balance: 2911.0
+ Closing call position above high: 384.25, Balance: 2526.75
+ Re-entering call position below high: 261.4, Balance: 2788.15
+ Closing call position above high: 312.55, Balance: 2475.6
+ Closing positions at 15:25
+ Bought back ATM put option: 194.95, Balance: 2280.65
+ Taking positions at 10:15, spot price: 42203.9
+ Calculated range: High=42661.7, Low=42148.05, ATM Strike=42200
+ Sold ATM options - Call: 288.45, Put: 221.7, Balance: 2790.7999999999997
+ Closing put position below low: 277.45, Balance: 2513.35
+ Re-entering put position above low: 250.6, Balance: 2763.95
+ Closing put position below low: 297.95, Balance: 2466.0
+ Closing positions at 15:25
+ Bought back ATM call option: 192.95, Balance: 2273.05
+ Taking positions at 10:15, spot price: 42179.65
+ Calculated range: High=42231.4, Low=41731.0, ATM Strike=42100
+ Sold ATM options - Call: 337.65, Put: 142.35, Balance: 2753.05
+ Closing call position above high: 328.8, Balance: 2424.25
+ Re-entering call position below high: 293.45, Balance: 2717.7
+ Closing call position above high: 308.5, Balance: 2409.2
+ Re-entering call position below high: 299.05, Balance: 2708.25
+ Closing call position above high: 309.85, Balance: 2398.4
+ Re-entering call position below high: 266.15, Balance: 2664.55
+ Closing call position above high: 287.0, Balance: 2377.55
+ Re-entering call position below high: 290.35, Balance: 2667.9
+ Closing call position above high: 283.6, Balance: 2384.3
+ Re-entering call position below high: 274.2, Balance: 2658.5
+ Closing call position above high: 272.85, Balance: 2385.65
+ Re-entering call position below high: 335.55, Balance: 2721.2000000000003
+ Closing call position above high: 255.15, Balance: 2466.05
+ Re-entering call position below high: 275.65, Balance: 2741.7000000000003
+ Closing call position above high: 274.1, Balance: 2467.6000000000004
+ Closing positions at 15:25
+ Bought back ATM put option: 105.35, Balance: 2362.2500000000005
+ Taking positions at 10:15, spot price: 42088.1
+ Calculated range: High=42342.75, Low=42064.5, ATM Strike=42000
+ Sold ATM options - Call: 523.15, Put: 322.25, Balance: 3207.6500000000005
+ Closing put position below low: 369.7, Balance: 2837.9500000000007
+ Re-entering put position above low: 291.6, Balance: 3129.5500000000006
+ Closing positions at 15:25
+ Bought back ATM call option: 440.85, Balance: 2688.7000000000007
+ Bought back ATM put option: 326.0, Balance: 2362.7000000000007
+ Taking positions at 10:15, spot price: 41922.75
+ Calculated range: High=42202.75, Low=41886.8, ATM Strike=41900
+ Sold ATM options - Call: 420.25, Put: 320.7, Balance: 3103.6500000000005
+ Closing call position above high: 554.15, Balance: 2549.5000000000005
+ Closing positions at 15:25
+ Bought back ATM put option: 147.2, Balance: 2402.3000000000006
+ Taking positions at 10:15, spot price: 42602.2
+ Calculated range: High=42712.3, Low=42447.0, ATM Strike=42600
+ Sold ATM options - Call: 276.45, Put: 295.5, Balance: 2974.2500000000005
+ Closing put position below low: 389.8, Balance: 2584.4500000000003
+ Closing positions at 15:25
+ Bought back ATM call option: 134.55, Balance: 2449.9
+ Taking positions at 10:15, spot price: 42318.7
+ Calculated range: High=42383.8, Low=42034.95, ATM Strike=42300
+ Sold ATM options - Call: 297.2, Put: 225.2, Balance: 2972.2999999999997
+ Closing put position below low: 409.65, Balance: 2562.6499999999996
+ Re-entering put position above low: 351.75, Balance: 2914.3999999999996
+ Closing positions at 15:25
+ Bought back ATM call option: 219.35, Balance: 2695.0499999999997
+ Bought back ATM put option: 213.15, Balance: 2481.8999999999996
+ Taking positions at 10:15, spot price: 42488.95
+ Calculated range: High=42486.6, Low=42122.15, ATM Strike=42400
+ Sold ATM options - Call: 232.55, Put: 180.55, Balance: 2895.0
+ Closing call position above high: 240.75, Balance: 2654.25
+ Re-entering call position below high: 242.4, Balance: 2896.65
+ Closing call position above high: 265.5, Balance: 2631.15
+ Re-entering call position below high: 246.7, Balance: 2877.85
+ Closing call position above high: 251.55, Balance: 2626.2999999999997
+ Re-entering call position below high: 210.25, Balance: 2836.5499999999997
+ Closing call position above high: 235.2, Balance: 2601.35
+ Re-entering call position below high: 226.85, Balance: 2828.2
+ Closing call position above high: 213.3, Balance: 2614.8999999999996
+ Re-entering call position below high: 215.6, Balance: 2830.4999999999995
+ Closing call position above high: 203.85, Balance: 2626.6499999999996
+ Re-entering call position below high: 191.7, Balance: 2818.3499999999995
+ Closing positions at 15:25
+ Bought back ATM call option: 201.05, Balance: 2617.2999999999993
+ Bought back ATM put option: 136.5, Balance: 2480.7999999999993
+ Taking positions at 10:15, spot price: 42362.2
+ Calculated range: High=42477.6, Low=42300.3, ATM Strike=42300
+ Sold ATM options - Call: 409.05, Put: 318.05, Balance: 3207.8999999999996
+ Closing put position below low: 323.35, Balance: 2884.5499999999997
+ Re-entering put position above low: 330.95, Balance: 3215.4999999999995
+ Closing put position below low: 317.7, Balance: 2897.7999999999997
+ Re-entering put position above low: 318.4, Balance: 3216.2
+ Closing put position below low: 309.65, Balance: 2906.5499999999997
+ Re-entering put position above low: 311.35, Balance: 3217.8999999999996
+ Closing put position below low: 305.45, Balance: 2912.45
+ Re-entering put position above low: 301.0, Balance: 3213.45
+ Closing put position below low: 301.7, Balance: 2911.75
+ Re-entering put position above low: 300.9, Balance: 3212.65
+ Closing put position below low: 319.1, Balance: 2893.55
+ Re-entering put position above low: 294.45, Balance: 3188.0
+ Closing positions at 15:25
+ Bought back ATM call option: 334.1, Balance: 2853.9
+ Bought back ATM put option: 293.5, Balance: 2560.4
+ Taking positions at 10:15, spot price: 42650.2
+ Calculated range: High=42664.9, Low=42398.3, ATM Strike=42600
+ Sold ATM options - Call: 323.7, Put: 269.35, Balance: 3153.45
+ Closing call position above high: 327.1, Balance: 2826.35
+ Re-entering call position below high: 324.8, Balance: 3151.15
+ Closing positions at 15:25
+ Bought back ATM call option: 238.0, Balance: 2913.15
+ Bought back ATM put option: 300.15, Balance: 2613.0
+ Taking positions at 10:15, spot price: 42927.1
+ Calculated range: High=43002.5, Low=42755.9, ATM Strike=42900
+ Sold ATM options - Call: 241.85, Put: 206.1, Balance: 3060.95
+ Closing put position below low: 269.5, Balance: 2791.45
+ Re-entering put position above low: 236.25, Balance: 3027.7
+ Closing positions at 15:25
+ Bought back ATM call option: 174.75, Balance: 2852.95
+ Bought back ATM put option: 226.95, Balance: 2626.0
+ Taking positions at 10:15, spot price: 42892.35
+ Calculated range: High=43078.55, Low=42888.95, ATM Strike=42800
+ Sold ATM options - Call: 225.55, Put: 120.8, Balance: 2972.3500000000004
+ Closing put position below low: 116.4, Balance: 2855.9500000000003
+ Re-entering put position above low: 117.6, Balance: 2973.55
+ Closing put position below low: 119.95, Balance: 2853.6000000000004
+ Re-entering put position above low: 109.65, Balance: 2963.2500000000005
+ Closing put position below low: 121.8, Balance: 2841.4500000000003
+ Re-entering put position above low: 114.05, Balance: 2955.5000000000005
+ Closing put position below low: 127.85, Balance: 2827.6500000000005
+ Closing positions at 15:25
+ Bought back ATM call option: 119.7, Balance: 2707.9500000000007
+ Taking positions at 10:15, spot price: 42135.8
+ Calculated range: High=42703.6, Low=42137.65, ATM Strike=42100
+ Could not get option prices for call4210020230202 or put4210020230202 at 2023-01-25 10:15:00
+ Closing positions at 15:25
+ Taking positions at 10:15, spot price: 42135.8
+ Calculated range: High=42703.6, Low=42137.65, ATM Strike=42100
+ Could not get option prices for call4210020230202 or put4210020230202 at 2023-01-25 10:15:00
+ Closing positions at 15:25
+ Taking positions at 10:15, spot price: 40758.7
+ Calculated range: High=41392.3, Low=40742.65, ATM Strike=40700
+ Sold ATM options - Call: 641.55, Put: 537.75, Balance: 3887.250000000001
+ Closing put position below low: 548.9, Balance: 3338.350000000001
+ Re-entering put position above low: 501.7, Balance: 3840.0500000000006
+ Closing put position below low: 501.8, Balance: 3338.2500000000005
+ Re-entering put position above low: 438.3, Balance: 3776.5500000000006
+ Closing put position below low: 489.4, Balance: 3287.1500000000005
+ Closing positions at 15:25
+ Bought back ATM call option: 458.0, Balance: 2829.1500000000005
+ Taking positions at 10:15, spot price: 40315.6
+ Calculated range: High=40785.55, Low=39668.7, ATM Strike=40300
+ Sold ATM options - Call: 676.75, Put: 503.25, Balance: 4009.1500000000005
+ Closing put position below low: 990.0, Balance: 3019.1500000000005
+ Re-entering put position above low: 799.85, Balance: 3819.0000000000005
+ Closing positions at 15:25
+ Bought back ATM call option: 670.0, Balance: 3149.0000000000005
+ Bought back ATM put option: 431.25, Balance: 2717.7500000000005
+ Taking positions at 10:15, spot price: 40275.1
+ Calculated range: High=40585.85, Low=40226.4, ATM Strike=40200
+ Sold ATM options - Call: 648.1, Put: 466.5, Balance: 3832.3500000000004
+ Closing call position above high: 838.8, Balance: 2993.55
+ Re-entering call position below high: 770.0, Balance: 3763.55
+ Closing call position above high: 806.3, Balance: 2957.25
+ Re-entering call position below high: 780.9, Balance: 3738.15
+ Closing call position above high: 783.95, Balance: 2954.2
+ Re-entering call position below high: 721.05, Balance: 3675.25
+ Closing call position above high: 837.25, Balance: 2838.0
+ Re-entering call position below high: 831.9, Balance: 3669.9
+ Closing call position above high: 896.45, Balance: 2773.45
+ Closing positions at 15:25
+ Bought back ATM put option: 245.1, Balance: 2528.35
+ Taking positions at 10:15, spot price: 41077.7
+ Calculated range: High=41174.1, Low=40947.25, ATM Strike=41000
+ Sold ATM options - Call: 502.8, Put: 315.7, Balance: 3346.85
+ Closing call position above high: 551.35, Balance: 2795.5
+ Re-entering call position below high: 499.05, Balance: 3294.55
+ Closing call position above high: 538.7, Balance: 2755.8500000000004
+ Re-entering call position below high: 287.55, Balance: 3043.4000000000005
+ Closing call position above high: 325.4, Balance: 2718.0000000000005
+ Re-entering call position below high: 250.5, Balance: 2968.5000000000005
+ Closing put position below low: 385.9, Balance: 2582.6000000000004
+ Closing positions at 15:25
+ Bought back ATM call option: 130.65, Balance: 2451.9500000000003
+ Taking positions at 10:15, spot price: 40330.55
+ Calculated range: High=40676.55, Low=39766.95, ATM Strike=40300
+ Sold ATM options - Call: 729.05, Put: 562.15, Balance: 3743.15
+ Closing call position above high: 827.4, Balance: 2915.75
+ Re-entering call position below high: 870.4, Balance: 3786.15
+ Closing call position above high: 797.0, Balance: 2989.15
+ Re-entering call position below high: 819.3, Balance: 3808.45
+ Closing call position above high: 788.45, Balance: 3020.0
+ Re-entering call position below high: 816.6, Balance: 3836.6
+ Closing positions at 15:25
+ Bought back ATM call option: 842.1, Balance: 2994.5
+ Bought back ATM put option: 314.0, Balance: 2680.5
+ Taking positions at 10:15, spot price: 41107.6
+ Calculated range: High=41281.35, Low=40930.4, ATM Strike=41100
+ Sold ATM options - Call: 473.9, Put: 402.9, Balance: 3557.3
+ Closing put position below low: 561.25, Balance: 2996.05
+ Re-entering put position above low: 475.25, Balance: 3471.3
+ Closing put position below low: 551.5, Balance: 2919.8
+ Re-entering put position above low: 492.6, Balance: 3412.4
+ Closing put position below low: 509.55, Balance: 2902.85
+ Re-entering put position above low: 508.05, Balance: 3410.9
+ Closing put position below low: 516.75, Balance: 2894.15
+ Re-entering put position above low: 450.2, Balance: 3344.35
+ Closing call position above high: 594.0, Balance: 2750.35
+ Closing positions at 15:25
+ Bought back ATM put option: 256.35, Balance: 2494.0
+ Taking positions at 10:15, spot price: 41610.55
+ Calculated range: High=41722.0, Low=41387.35, ATM Strike=41600
+ Sold ATM options - Call: 372.0, Put: 357.75, Balance: 3223.75
+ Closing put position below low: 493.25, Balance: 2730.5
+ Re-entering put position above low: 483.8, Balance: 3214.3
+ Closing put position below low: 497.5, Balance: 2716.8
+ Re-entering put position above low: 426.35, Balance: 3143.15
+ Closing put position below low: 491.0, Balance: 2652.15
+ Re-entering put position above low: 452.25, Balance: 3104.4
+ Closing put position below low: 456.0, Balance: 2648.4
+ Re-entering put position above low: 461.25, Balance: 3109.65
+ Closing put position below low: 479.8, Balance: 2629.85
+ Re-entering put position above low: 466.2, Balance: 3096.0499999999997
+ Closing put position below low: 458.7, Balance: 2637.35
+ Re-entering put position above low: 441.4, Balance: 3078.75
+ Closing put position below low: 482.55, Balance: 2596.2
+ Re-entering put position above low: 445.25, Balance: 3041.45
+ Closing put position below low: 468.05, Balance: 2573.3999999999996
+ Re-entering put position above low: 470.9, Balance: 3044.2999999999997
+ Closing put position below low: 446.6, Balance: 2597.7
+ Re-entering put position above low: 466.05, Balance: 3063.75
+ Closing put position below low: 439.75, Balance: 2624.0
+ Closing positions at 15:25
+ Bought back ATM call option: 263.0, Balance: 2361.0
+ Taking positions at 10:15, spot price: 41404.45
+ Calculated range: High=41556.8, Low=41372.75, ATM Strike=41400
+ Sold ATM options - Call: 343.35, Put: 289.6, Balance: 2993.95
+ Closing put position below low: 291.75, Balance: 2702.2
+ Re-entering put position above low: 287.5, Balance: 2989.7
+ Closing put position below low: 317.35, Balance: 2672.35
+ Re-entering put position above low: 287.35, Balance: 2959.7
+ Closing put position below low: 280.0, Balance: 2679.7
+ Re-entering put position above low: 297.15, Balance: 2976.85
+ Closing put position below low: 306.25, Balance: 2670.6
+ Re-entering put position above low: 271.75, Balance: 2942.35
+ Closing call position above high: 391.35, Balance: 2551.0
+ Re-entering call position below high: 352.75, Balance: 2903.75
+ Closing positions at 15:25
+ Bought back ATM call option: 350.2, Balance: 2553.55
+ Bought back ATM put option: 240.25, Balance: 2313.3
+ Taking positions at 10:15, spot price: 41557.3
+ Calculated range: High=41789.25, Low=41481.15, ATM Strike=41500
+ Sold ATM options - Call: 330.3, Put: 162.75, Balance: 2806.3500000000004
+ Closing put position below low: 274.05, Balance: 2532.3
+ Re-entering put position above low: 227.3, Balance: 2759.6000000000004
+ Closing put position below low: 203.0, Balance: 2556.6000000000004
+ Re-entering put position above low: 183.85, Balance: 2740.4500000000003
+ Closing positions at 15:25
+ Bought back ATM call option: 226.9, Balance: 2513.55
+ Bought back ATM put option: 162.1, Balance: 2351.4500000000003
+ Taking positions at 10:15, spot price: 41410.5
+ Calculated range: High=41634.0, Low=41253.25, ATM Strike=41400
+ Sold ATM options - Call: 420.45, Put: 373.7, Balance: 3145.6
+ Closing positions at 15:25
+ Bought back ATM call option: 507.9, Balance: 2637.7
+ Bought back ATM put option: 228.65, Balance: 2409.0499999999997
+ Taking positions at 10:15, spot price: 41635.9
+ Calculated range: High=41657.5, Low=41443.5, ATM Strike=41600
+ Sold ATM options - Call: 332.0, Put: 313.7, Balance: 3054.7499999999995
+ Closing positions at 15:25
+ Bought back ATM call option: 297.1, Balance: 2757.6499999999996
+ Bought back ATM put option: 302.5, Balance: 2455.1499999999996
+ Taking positions at 10:15, spot price: 41305.1
+ Calculated range: High=41657.95, Low=41233.8, ATM Strike=41300
+ Sold ATM options - Call: 300.8, Put: 292.85, Balance: 3048.7999999999997
+ Closing put position below low: 319.95, Balance: 2728.85
+ Re-entering put position above low: 283.85, Balance: 3012.7
+ Closing positions at 15:25
+ Bought back ATM call option: 290.0, Balance: 2722.7
+ Bought back ATM put option: 259.1, Balance: 2463.6
+ Taking positions at 10:15, spot price: 41278.7
+ Calculated range: High=41410.45, Low=41198.1, ATM Strike=41200
+ Sold ATM options - Call: 303.35, Put: 191.25, Balance: 2958.2
+ Closing call position above high: 376.25, Balance: 2581.95
+ Re-entering call position below high: 348.6, Balance: 2930.5499999999997
+ Closing call position above high: 367.65, Balance: 2562.8999999999996
+ Closing positions at 15:25
+ Bought back ATM put option: 80.95, Balance: 2481.95
+ Taking positions at 10:15, spot price: 41572.45
+ Calculated range: High=41674.6, Low=41456.05, ATM Strike=41500
+ Sold ATM options - Call: 234.0, Put: 135.0, Balance: 2850.95
+ Closing call position above high: 235.0, Balance: 2615.95
+ Re-entering call position below high: 256.25, Balance: 2872.2
+ Closing call position above high: 298.65, Balance: 2573.5499999999997
+ Closing positions at 15:25
+ Bought back ATM put option: 45.55, Balance: 2527.9999999999995
+ Taking positions at 10:15, spot price: 41867.55
+ Calculated range: High=41974.4, Low=41823.05, ATM Strike=41800
+ Sold ATM options - Call: 409.0, Put: 277.05, Balance: 3214.0499999999997
+ Closing put position below low: 299.0, Balance: 2915.0499999999997
+ Re-entering put position above low: 282.75, Balance: 3197.7999999999997
+ Closing put position below low: 284.6, Balance: 2913.2
+ Re-entering put position above low: 287.9, Balance: 3201.1
+ Closing put position below low: 302.3, Balance: 2898.7999999999997
+ Re-entering put position above low: 291.1, Balance: 3189.8999999999996
+ Closing put position below low: 287.6, Balance: 2902.2999999999997
+ Re-entering put position above low: 274.05, Balance: 3176.35
+ Closing put position below low: 274.9, Balance: 2901.45
+ Re-entering put position above low: 285.3, Balance: 3186.75
+ Closing put position below low: 291.75, Balance: 2895.0
+ Closing positions at 15:25
+ Bought back ATM call option: 280.6, Balance: 2614.4
+ Taking positions at 10:15, spot price: 41413.15
+ Calculated range: High=41514.2, Low=41360.15, ATM Strike=41400
+ Sold ATM options - Call: 317.45, Put: 286.8, Balance: 3218.65
+ Closing put position below low: 287.95, Balance: 2930.7000000000003
+ Re-entering put position above low: 278.8, Balance: 3209.5000000000005
+ Closing put position below low: 290.55, Balance: 2918.9500000000003
+ Re-entering put position above low: 284.25, Balance: 3203.2000000000003
+ Closing put position below low: 314.35, Balance: 2888.8500000000004
+ Closing positions at 15:25
+ Bought back ATM call option: 233.1, Balance: 2655.7500000000005
+ Taking positions at 10:15, spot price: 41240.05
+ Calculated range: High=41292.3, Low=41089.9, ATM Strike=41200
+ Sold ATM options - Call: 269.95, Put: 264.7, Balance: 3190.4
+ Closing put position below low: 296.7, Balance: 2893.7000000000003
+ Re-entering put position above low: 292.55, Balance: 3186.2500000000005
+ Closing put position below low: 361.1, Balance: 2825.1500000000005
+ Closing positions at 15:25
+ Bought back ATM call option: 131.0, Balance: 2694.1500000000005
+ Taking positions at 10:15, spot price: 40732.1
+ Calculated range: High=40784.9, Low=40508.85, ATM Strike=40700
+ Sold ATM options - Call: 322.3, Put: 187.3, Balance: 3203.750000000001
+ Closing call position above high: 346.45, Balance: 2857.300000000001
+ Re-entering call position below high: 274.25, Balance: 3131.550000000001
+ Closing positions at 15:25
+ Bought back ATM call option: 220.95, Balance: 2910.6000000000013
+ Bought back ATM put option: 195.85, Balance: 2714.7500000000014
+ Taking positions at 10:15, spot price: 40378.1
+ Calculated range: High=40518.7, Low=40335.05, ATM Strike=40300
+ Sold ATM options - Call: 232.05, Put: 150.1, Balance: 3096.9000000000015
+ Closing put position below low: 164.3, Balance: 2932.6000000000013
+ Re-entering put position above low: 160.3, Balance: 3092.9000000000015
+ Closing put position below low: 178.25, Balance: 2914.6500000000015
+ Closing positions at 15:25
+ Bought back ATM call option: 60.75, Balance: 2853.9000000000015
+ Taking positions at 10:15, spot price: 40031.7
+ Calculated range: High=40111.15, Low=39603.8, ATM Strike=40000
+ Sold ATM options - Call: 475.0, Put: 344.7, Balance: 3673.6000000000013
+ Closing positions at 15:25
+ Bought back ATM call option: 433.1, Balance: 3240.5000000000014
+ Bought back ATM put option: 281.45, Balance: 2959.0500000000015
+ Taking positions at 10:15, spot price: 40031.7
+ Calculated range: High=40111.15, Low=39603.8, ATM Strike=40000
+ Sold ATM options - Call: 475.0, Put: 344.7, Balance: 3778.7500000000014
+ Closing positions at 15:25
+ Bought back ATM call option: 433.1, Balance: 3345.6500000000015
+ Bought back ATM put option: 281.45, Balance: 3064.2000000000016
+ Taking positions at 10:15, spot price: 40074.6
+ Calculated range: High=40346.95, Low=40026.95, ATM Strike=40000
+ Sold ATM options - Call: 412.0, Put: 260.75, Balance: 3736.9500000000016
+ Closing put position below low: 307.7, Balance: 3429.250000000002
+ Re-entering put position above low: 282.0, Balance: 3711.250000000002
+ Closing put position below low: 306.5, Balance: 3404.750000000002
+ Re-entering put position above low: 295.15, Balance: 3699.900000000002
+ Closing put position below low: 277.35, Balance: 3422.550000000002
+ Re-entering put position above low: 286.65, Balance: 3709.200000000002
+ Closing put position below low: 318.55, Balance: 3390.650000000002
+ Re-entering put position above low: 315.7, Balance: 3706.3500000000017
+ Closing put position below low: 346.05, Balance: 3360.3000000000015
+ Closing positions at 15:25
+ Bought back ATM call option: 292.1, Balance: 3068.2000000000016
+ Taking positions at 10:15, spot price: 39882.45
+ Calculated range: High=40133.1, Low=39750.0, ATM Strike=39800
+ Sold ATM options - Call: 344.0, Put: 245.65, Balance: 3657.8500000000017
+ Closing call position above high: 497.9, Balance: 3159.9500000000016
+ Re-entering call position below high: 498.3, Balance: 3658.250000000002
+ Closing call position above high: 496.9, Balance: 3161.3500000000017
+ Re-entering call position below high: 495.6, Balance: 3656.9500000000016
+ Closing call position above high: 571.95, Balance: 3085.000000000002
+ Re-entering call position below high: 513.4, Balance: 3598.400000000002
+ Closing call position above high: 525.0, Balance: 3073.400000000002
+ Re-entering call position below high: 480.9, Balance: 3554.300000000002
+ Closing call position above high: 535.9, Balance: 3018.400000000002
+ Closing positions at 15:25
+ Bought back ATM put option: 83.3, Balance: 2935.1000000000017
+ Taking positions at 10:15, spot price: 40289.55
+ Calculated range: High=40385.35, Low=40206.5, ATM Strike=40200
+ Sold ATM options - Call: 299.9, Put: 190.95, Balance: 3425.9500000000016
+ Closing put position below low: 277.7, Balance: 3148.250000000002
+ Re-entering put position above low: 205.25, Balance: 3353.500000000002
+ Closing put position below low: 205.0, Balance: 3148.500000000002
+ Re-entering put position above low: 166.2, Balance: 3314.7000000000016
+ Closing positions at 15:25
+ Bought back ATM call option: 264.05, Balance: 3050.6500000000015
+ Bought back ATM put option: 166.85, Balance: 2883.8000000000015
+ Taking positions at 10:15, spot price: 40550.85
+ Calculated range: High=40562.65, Low=40360.45, ATM Strike=40500
+ Sold ATM options - Call: 190.7, Put: 154.9, Balance: 3229.4000000000015
+ Closing call position above high: 215.35, Balance: 3014.0500000000015
+ Re-entering call position below high: 229.5, Balance: 3243.5500000000015
+ Closing call position above high: 227.75, Balance: 3015.8000000000015
+ Re-entering call position below high: 218.2, Balance: 3234.0000000000014
+ Closing call position above high: 219.85, Balance: 3014.1500000000015
+ Re-entering call position below high: 203.15, Balance: 3217.3000000000015
+ Closing call position above high: 209.1, Balance: 3008.2000000000016
+ Closing positions at 15:25
+ Bought back ATM put option: 62.0, Balance: 2946.2000000000016
+ Taking positions at 10:15, spot price: 40619.7
+ Calculated range: High=40771.3, Low=40544.7, ATM Strike=40600
+ Sold ATM options - Call: 354.25, Put: 271.5, Balance: 3571.9500000000016
+ Closing put position below low: 299.8, Balance: 3272.1500000000015
+ Closing positions at 15:25
+ Bought back ATM call option: 208.6, Balance: 3063.5500000000015
+ Taking positions at 10:15, spot price: 40959.85
+ Calculated range: High=40962.75, Low=40630.7, ATM Strike=40900
+ Sold ATM options - Call: 338.55, Put: 221.15, Balance: 3623.250000000002
+ Closing call position above high: 384.45, Balance: 3238.800000000002
+ Closing positions at 15:25
+ Bought back ATM put option: 133.35, Balance: 3105.450000000002
+ Taking positions at 10:15, spot price: 41648.15
+ Calculated range: High=41662.25, Low=41410.0, ATM Strike=41600
+ Sold ATM options - Call: 232.25, Put: 189.65, Balance: 3527.350000000002
+ Closing put position below low: 339.15, Balance: 3188.200000000002
+ Re-entering put position above low: 310.75, Balance: 3498.950000000002
+ Closing put position below low: 323.0, Balance: 3175.950000000002
+ Re-entering put position above low: 319.35, Balance: 3495.300000000002
+ Closing put position below low: 306.25, Balance: 3189.050000000002
+ Re-entering put position above low: 325.15, Balance: 3514.200000000002
+ Closing put position below low: 332.7, Balance: 3181.5000000000023
+ Re-entering put position above low: 323.05, Balance: 3504.5500000000025
+ Closing put position below low: 310.0, Balance: 3194.5500000000025
+ Re-entering put position above low: 299.3, Balance: 3493.8500000000026
+ Closing put position below low: 322.7, Balance: 3171.150000000003
+ Closing positions at 15:25
+ Bought back ATM call option: 111.65, Balance: 3059.5000000000027
+ Taking positions at 10:15, spot price: 41245.15
+ Calculated range: High=41355.25, Low=41101.15, ATM Strike=41200
+ Sold ATM options - Call: 198.85, Put: 155.5, Balance: 3413.8500000000026
+ Closing call position above high: 318.6, Balance: 3095.2500000000027
+ Closing positions at 15:25
+ Bought back ATM put option: 34.75, Balance: 3060.5000000000027
+ Taking positions at 10:15, spot price: 41490.2
+ Calculated range: High=41631.0, Low=41436.1, ATM Strike=41400
+ Sold ATM options - Call: 360.0, Put: 288.8, Balance: 3709.300000000003
+ Closing call position above high: 456.25, Balance: 3253.050000000003
+ Re-entering call position below high: 413.7, Balance: 3666.7500000000027
+ Closing put position below low: 287.1, Balance: 3379.650000000003
+ Re-entering put position above low: 285.65, Balance: 3665.300000000003
+ Closing put position below low: 320.6, Balance: 3344.700000000003
+ Closing positions at 15:25
+ Bought back ATM call option: 274.0, Balance: 3070.700000000003
+ Taking positions at 10:15, spot price: 40545.7
+ Calculated range: High=40819.55, Low=40394.75, ATM Strike=40500
+ Sold ATM options - Call: 346.15, Put: 291.0, Balance: 3707.850000000003
+ Closing put position below low: 316.85, Balance: 3391.000000000003
+ Re-entering put position above low: 279.75, Balance: 3670.750000000003
+ Closing positions at 15:25
+ Bought back ATM call option: 318.45, Balance: 3352.3000000000034
+ Bought back ATM put option: 273.65, Balance: 3078.6500000000033
+ Taking positions at 10:15, spot price: 40517.0
+ Calculated range: High=40687.75, Low=40348.15, ATM Strike=40500
+ Sold ATM options - Call: 274.35, Put: 244.35, Balance: 3597.350000000003
+ Closing put position below low: 416.0, Balance: 3181.350000000003
+ Closing positions at 15:25
+ Bought back ATM call option: 78.0, Balance: 3103.350000000003
+ Taking positions at 10:15, spot price: 39524.1
+ Calculated range: High=39765.7, Low=39326.55, ATM Strike=39500
+ Sold ATM options - Call: 315.9, Put: 273.55, Balance: 3692.8000000000034
+ Closing put position below low: 386.1, Balance: 3306.7000000000035
+ Re-entering put position above low: 379.7, Balance: 3686.4000000000033
+ Closing put position below low: 399.0, Balance: 3287.4000000000033
+ Re-entering put position above low: 232.55, Balance: 3519.9500000000035
+ Closing put position below low: 364.45, Balance: 3155.5000000000036
+ Re-entering put position above low: 287.5, Balance: 3443.0000000000036
+ Closing put position below low: 299.8, Balance: 3143.2000000000035
+ Re-entering put position above low: 319.25, Balance: 3462.4500000000035
+ Closing positions at 15:25
+ Bought back ATM call option: 281.55, Balance: 3180.9000000000033
+ Bought back ATM put option: 290.5, Balance: 2890.4000000000033
+ Taking positions at 10:15, spot price: 39641.2
+ Calculated range: High=39909.75, Low=39632.5, ATM Strike=39600
+ Sold ATM options - Call: 267.6, Put: 155.3, Balance: 3313.3000000000034
+ Closing put position below low: 187.85, Balance: 3125.4500000000035
+ Re-entering put position above low: 156.45, Balance: 3281.9000000000033
+ Closing put position below low: 159.15, Balance: 3122.750000000003
+ Re-entering put position above low: 162.7, Balance: 3285.450000000003
+ Closing put position below low: 179.8, Balance: 3105.650000000003
+ Closing positions at 15:25
+ Bought back ATM call option: 29.15, Balance: 3076.5000000000027
+ Taking positions at 10:15, spot price: 38635.95
+ Calculated range: High=39090.4, Low=38617.8, ATM Strike=38600
+ Sold ATM options - Call: 596.0, Put: 431.55, Balance: 4104.050000000003
+ Closing call position above high: 872.0, Balance: 3232.050000000003
+ Re-entering call position below high: 893.95, Balance: 4126.000000000003
+ Closing call position above high: 865.8, Balance: 3260.2000000000025
+ Re-entering call position below high: 809.7, Balance: 4069.9000000000024
+ Closing call position above high: 911.5, Balance: 3158.4000000000024
+ Re-entering call position below high: 849.65, Balance: 4008.0500000000025
+ Closing call position above high: 881.6, Balance: 3126.4500000000025
+ Re-entering call position below high: 865.7, Balance: 3992.1500000000024
+ Closing call position above high: 957.0, Balance: 3035.1500000000024
+ Closing positions at 15:25
+ Bought back ATM put option: 210.45, Balance: 2824.7000000000025
+ Taking positions at 10:15, spot price: 39255.5
+ Calculated range: High=39597.2, Low=39222.65, ATM Strike=39200
+ Sold ATM options - Call: 486.9, Put: 351.8, Balance: 3663.400000000003
+ Closing put position below low: 379.0, Balance: 3284.400000000003
+ Re-entering put position above low: 368.4, Balance: 3652.800000000003
+ Closing put position below low: 377.25, Balance: 3275.550000000003
+ Re-entering put position above low: 355.75, Balance: 3631.300000000003
+ Closing put position below low: 365.45, Balance: 3265.850000000003
+ Re-entering put position above low: 311.1, Balance: 3576.950000000003
+ Closing call position above high: 666.25, Balance: 2910.700000000003
+ Closing positions at 15:25
+ Bought back ATM put option: 175.35, Balance: 2735.350000000003
+ Taking positions at 10:15, spot price: 39136.55
+ Calculated range: High=39512.1, Low=39119.9, ATM Strike=39100
+ Sold ATM options - Call: 430.2, Put: 318.85, Balance: 3484.400000000003
+ Closing put position below low: 357.05, Balance: 3127.3500000000026
+ Re-entering put position above low: 326.15, Balance: 3453.5000000000027
+ Closing put position below low: 376.35, Balance: 3077.150000000003
+ Re-entering put position above low: 377.55, Balance: 3454.700000000003
+ Closing put position below low: 411.0, Balance: 3043.700000000003
+ Re-entering put position above low: 328.75, Balance: 3372.450000000003
+ Closing positions at 15:25
+ Bought back ATM call option: 527.5, Balance: 2844.950000000003
+ Bought back ATM put option: 213.2, Balance: 2631.750000000003
+ Taking positions at 10:15, spot price: 39538.7
+ Calculated range: High=39610.0, Low=39366.3, ATM Strike=39500
+ Sold ATM options - Call: 370.5, Put: 272.55, Balance: 3274.8000000000034
+ Closing call position above high: 410.35, Balance: 2864.4500000000035
+ Closing positions at 15:25
+ Bought back ATM put option: 118.7, Balance: 2745.7500000000036
+ Taking positions at 10:15, spot price: 39975.6
+ Calculated range: High=40082.75, Low=39844.85, ATM Strike=39900
+ Sold ATM options - Call: 261.25, Put: 216.0, Balance: 3223.0000000000036
+ Closing positions at 15:25
+ Bought back ATM call option: 275.0, Balance: 2948.0000000000036
+ Bought back ATM put option: 175.85, Balance: 2772.1500000000037
+ Taking positions at 10:15, spot price: 39969.4
+ Calculated range: High=40055.25, Low=39730.45, ATM Strike=39900
+ Sold ATM options - Call: 511.0, Put: 288.15, Balance: 3571.300000000004
+ Closing call position above high: 572.0, Balance: 2999.300000000004
+ Re-entering call position below high: 536.5, Balance: 3535.800000000004
+ Closing call position above high: 535.5, Balance: 3000.300000000004
+ Re-entering call position below high: 493.4, Balance: 3493.700000000004
+ Closing put position below low: 471.1, Balance: 3022.600000000004
+ Closing positions at 15:25
+ Bought back ATM call option: 253.5, Balance: 2769.100000000004
+ Taking positions at 10:15, spot price: 39476.5
+ Calculated range: High=39668.2, Low=39433.05, ATM Strike=39400
+ Sold ATM options - Call: 488.3, Put: 273.45, Balance: 3530.850000000004
+ Closing call position above high: 594.0, Balance: 2936.850000000004
+ Re-entering call position below high: 507.55, Balance: 3444.400000000004
+ Closing call position above high: 557.0, Balance: 2887.400000000004
+ Re-entering call position below high: 539.2, Balance: 3426.600000000004
+ Closing call position above high: 529.6, Balance: 2897.000000000004
+ Re-entering call position below high: 472.9, Balance: 3369.900000000004
+ Closing put position below low: 300.6, Balance: 3069.3000000000043
+ Re-entering put position above low: 306.05, Balance: 3375.3500000000045
+ Closing positions at 15:25
+ Bought back ATM call option: 325.15, Balance: 3050.2000000000044
+ Bought back ATM put option: 363.65, Balance: 2686.5500000000043
+ Taking positions at 10:15, spot price: 39529.2
+ Calculated range: High=39584.55, Low=39320.1, ATM Strike=39500
+ Sold ATM options - Call: 341.6, Put: 269.55, Balance: 3297.7000000000044
+ Closing put position below low: 352.5, Balance: 2945.2000000000044
+ Re-entering put position above low: 357.55, Balance: 3302.7500000000045
+ Closing call position above high: 389.1, Balance: 2913.6500000000046
+ Re-entering call position below high: 376.2, Balance: 3289.8500000000045
+ Closing call position above high: 356.25, Balance: 2933.6000000000045
+ Re-entering call position below high: 298.85, Balance: 3232.4500000000044
+ Closing positions at 15:25
+ Bought back ATM call option: 227.35, Balance: 3005.1000000000045
+ Bought back ATM put option: 267.75, Balance: 2737.3500000000045
+ Taking positions at 10:15, spot price: 39420.7
+ Calculated range: High=39561.55, Low=39391.0, ATM Strike=39400
+ Sold ATM options - Call: 279.2, Put: 156.2, Balance: 3172.750000000004
+ Closing put position below low: 199.95, Balance: 2972.8000000000043
+ Re-entering put position above low: 170.1, Balance: 3142.900000000004
+ Closing put position below low: 189.8, Balance: 2953.100000000004
+ Re-entering put position above low: 145.0, Balance: 3098.100000000004
+ Closing call position above high: 248.9, Balance: 2849.200000000004
+ Re-entering call position below high: 270.95, Balance: 3120.1500000000037
+ Closing positions at 15:25
+ Bought back ATM call option: 301.65, Balance: 2818.5000000000036
+ Bought back ATM put option: 81.0, Balance: 2737.5000000000036
+ Taking positions at 10:15, spot price: 39715.85
+ Calculated range: High=39748.0, Low=39611.55, ATM Strike=39700
+ Could not get option prices for call3970020230406 or put3970020230406 at 2023-03-29 10:15:00
+ Closing positions at 15:25
+ Taking positions at 10:15, spot price: 39715.85
+ Calculated range: High=39748.0, Low=39611.55, ATM Strike=39700
+ Could not get option prices for call3970020230406 or put3970020230406 at 2023-03-29 10:15:00
+ Closing positions at 15:25
+ Taking positions at 10:15, spot price: 40483.65
+ Calculated range: High=40519.0, Low=40205.6, ATM Strike=40400
+ Sold ATM options - Call: 368.45, Put: 287.45, Balance: 3393.4000000000033
+ Closing call position above high: 396.65, Balance: 2996.750000000003
+ Re-entering call position below high: 382.4, Balance: 3379.1500000000033
+ Closing call position above high: 393.8, Balance: 2985.350000000003
+ Re-entering call position below high: 393.55, Balance: 3378.9000000000033
+ Closing call position above high: 397.85, Balance: 2981.0500000000034
+ Re-entering call position below high: 384.2, Balance: 3365.250000000003
+ Closing call position above high: 406.05, Balance: 2959.200000000003
+ Closing positions at 15:25
+ Bought back ATM put option: 221.0, Balance: 2738.200000000003
+ Taking positions at 10:15, spot price: 40676.2
+ Calculated range: High=40702.2, Low=40536.15, ATM Strike=40600
+ Sold ATM options - Call: 297.05, Put: 232.45, Balance: 3267.700000000003
+ Closing call position above high: 310.55, Balance: 2957.150000000003
+ Re-entering call position below high: 324.55, Balance: 3281.700000000003
+ Closing call position above high: 317.0, Balance: 2964.700000000003
+ Re-entering call position below high: 320.0, Balance: 3284.700000000003
+ Closing call position above high: 322.55, Balance: 2962.150000000003
+ Re-entering call position below high: 321.25, Balance: 3283.400000000003
+ Closing call position above high: 327.95, Balance: 2955.450000000003
+ Re-entering call position below high: 301.5, Balance: 3256.950000000003
+ Closing call position above high: 307.6, Balance: 2949.350000000003
+ Re-entering call position below high: 311.4, Balance: 3260.750000000003
+ Closing call position above high: 309.2, Balance: 2951.5500000000034
+ Re-entering call position below high: 314.9, Balance: 3266.4500000000035
+ Closing call position above high: 310.45, Balance: 2956.0000000000036
+ Re-entering call position below high: 336.25, Balance: 3292.2500000000036
+ Closing call position above high: 338.0, Balance: 2954.2500000000036
+ Closing positions at 15:25
+ Bought back ATM put option: 126.45, Balance: 2827.800000000004
+ Taking positions at 10:15, spot price: 40891.65
+ Calculated range: High=40972.3, Low=40815.45, ATM Strike=40800
+ Sold ATM options - Call: 226.3, Put: 142.5, Balance: 3196.600000000004
+ Closing call position above high: 240.0, Balance: 2956.600000000004
+ Re-entering call position below high: 252.45, Balance: 3209.050000000004
+ Closing call position above high: 317.55, Balance: 2891.5000000000036
+ Re-entering call position below high: 258.95, Balance: 3150.4500000000035
+ Closing call position above high: 256.85, Balance: 2893.6000000000035
+ Re-entering call position below high: 257.65, Balance: 3151.2500000000036
+ Closing call position above high: 267.75, Balance: 2883.5000000000036
+ Re-entering call position below high: 275.65, Balance: 3159.1500000000037
+ Closing positions at 15:25
+ Bought back ATM call option: 272.9, Balance: 2886.2500000000036
+ Bought back ATM put option: 75.35, Balance: 2810.9000000000037
+ Taking positions at 10:15, spot price: 41118.5
+ Calculated range: High=41173.8, Low=40821.9, ATM Strike=41100
+ Sold ATM options - Call: 342.8, Put: 274.65, Balance: 3428.350000000004
+ Closing call position above high: 376.15, Balance: 3052.200000000004
+ Re-entering call position below high: 336.75, Balance: 3388.950000000004
+ Closing positions at 15:25
+ Bought back ATM call option: 242.6, Balance: 3146.350000000004
+ Bought back ATM put option: 267.0, Balance: 2879.350000000004
+ Taking positions at 10:15, spot price: 40936.85
+ Calculated range: High=41134.9, Low=40885.25, ATM Strike=40900
+ Sold ATM options - Call: 253.6, Put: 215.65, Balance: 3348.600000000004
+ Closing put position below low: 221.1, Balance: 3127.500000000004
+ Re-entering put position above low: 207.05, Balance: 3334.5500000000043
+ Closing put position below low: 220.0, Balance: 3114.5500000000043
+ Re-entering put position above low: 217.2, Balance: 3331.750000000004
+ Closing put position below low: 224.6, Balance: 3107.150000000004
+ Re-entering put position above low: 224.75, Balance: 3331.900000000004
+ Closing put position below low: 223.05, Balance: 3108.850000000004
+ Re-entering put position above low: 205.15, Balance: 3314.000000000004
+ Closing put position below low: 293.45, Balance: 3020.5500000000043
+ Closing positions at 15:25
+ Bought back ATM call option: 199.65, Balance: 2820.900000000004
+ Taking positions at 10:15, spot price: 41248.85
+ Calculated range: High=41271.05, Low=41026.25, ATM Strike=41200
+ Sold ATM options - Call: 239.75, Put: 151.2, Balance: 3211.850000000004
+ Closing call position above high: 267.05, Balance: 2944.800000000004
+ Re-entering call position below high: 244.0, Balance: 3188.800000000004
+ Closing call position above high: 237.85, Balance: 2950.950000000004
+ Re-entering call position below high: 218.25, Balance: 3169.200000000004
+ Closing call position above high: 276.25, Balance: 2892.950000000004
+ Re-entering call position below high: 214.35, Balance: 3107.300000000004
+ Closing call position above high: 233.75, Balance: 2873.550000000004
+ Closing positions at 15:25
+ Bought back ATM put option: 102.4, Balance: 2771.1500000000037
+ Taking positions at 10:15, spot price: 41413.9
+ Calculated range: High=41479.5, Low=41334.85, ATM Strike=41400
+ Sold ATM options - Call: 153.3, Put: 143.0, Balance: 3067.450000000004
+ Closing call position above high: 180.4, Balance: 2887.050000000004
+ Re-entering call position below high: 181.75, Balance: 3068.800000000004
+ Closing call position above high: 175.3, Balance: 2893.5000000000036
+ Re-entering call position below high: 171.4, Balance: 3064.9000000000037
+ Closing call position above high: 160.0, Balance: 2904.9000000000037
+ Re-entering call position below high: 160.25, Balance: 3065.1500000000037
+ Closing call position above high: 182.6, Balance: 2882.550000000004
+ Re-entering call position below high: 202.05, Balance: 3084.600000000004
+ Closing call position above high: 199.45, Balance: 2885.150000000004
+ Closing positions at 15:25
+ Bought back ATM put option: 70.0, Balance: 2815.150000000004
+ Taking positions at 10:15, spot price: 41685.75
+ Calculated range: High=41795.95, Low=41504.1, ATM Strike=41600
+ Sold ATM options - Call: 340.5, Put: 235.4, Balance: 3391.0500000000043
+ Closing call position above high: 369.0, Balance: 3022.0500000000043
+ Re-entering call position below high: 393.95, Balance: 3416.000000000004
+ Closing call position above high: 397.95, Balance: 3018.0500000000043
+ Closing positions at 15:25
+ Bought back ATM put option: 93.25, Balance: 2924.8000000000043
+ Taking positions at 10:15, spot price: 41890.05
+ Calculated range: High=42603.55, Low=41801.15, ATM Strike=41800
+ Sold ATM options - Call: 341.85, Put: 214.1, Balance: 3480.750000000004
+ Closing positions at 15:25
+ Bought back ATM call option: 560.6, Balance: 2920.150000000004
+ Bought back ATM put option: 82.75, Balance: 2837.400000000004
+ Taking positions at 10:15, spot price: 42358.95
+ Calculated range: High=42446.1, Low=42275.0, ATM Strike=42300
+ Sold ATM options - Call: 226.0, Put: 181.35, Balance: 3244.750000000004
+ Closing call position above high: 280.5, Balance: 2964.250000000004
+ Re-entering call position below high: 281.0, Balance: 3245.250000000004
+ Closing call position above high: 267.3, Balance: 2977.950000000004
+ Re-entering call position below high: 269.35, Balance: 3247.300000000004
+ Closing call position above high: 290.85, Balance: 2956.450000000004
+ Re-entering call position below high: 245.9, Balance: 3202.350000000004
+ Closing put position below low: 262.5, Balance: 2939.850000000004
+ Re-entering put position above low: 189.8, Balance: 3129.650000000004
+ Closing put position below low: 224.1, Balance: 2905.5500000000043
+ Re-entering put position above low: 147.1, Balance: 3052.650000000004
+ Closing put position below low: 192.55, Balance: 2860.100000000004
+ Closing positions at 15:25
+ Bought back ATM call option: 185.3, Balance: 2674.800000000004
+ Taking positions at 10:15, spot price: 42166.4
+ Calculated range: High=42338.2, Low=42141.05, ATM Strike=42100
+ Sold ATM options - Call: 222.3, Put: 121.85, Balance: 3018.950000000004
+ Closing put position below low: 149.0, Balance: 2869.950000000004
+ Re-entering put position above low: 140.5, Balance: 3010.450000000004
+ Closing put position below low: 138.45, Balance: 2872.000000000004
+ Re-entering put position above low: 137.75, Balance: 3009.750000000004
+ Closing put position below low: 141.2, Balance: 2868.5500000000043
+ Re-entering put position above low: 132.45, Balance: 3001.000000000004
+ Closing put position below low: 119.1, Balance: 2881.900000000004
+ Re-entering put position above low: 119.45, Balance: 3001.350000000004
+ Closing put position below low: 177.4, Balance: 2823.950000000004
+ Re-entering put position above low: 126.6, Balance: 2950.550000000004
+ Closing put position below low: 141.15, Balance: 2809.4000000000037
+ Re-entering put position above low: 127.5, Balance: 2936.9000000000037
+ Closing put position below low: 138.9, Balance: 2798.0000000000036
+ Re-entering put position above low: 105.55, Balance: 2903.550000000004
+ Closing positions at 15:25
+ Bought back ATM call option: 165.0, Balance: 2738.550000000004
+ Bought back ATM put option: 113.4, Balance: 2625.1500000000037
+ Taking positions at 10:15, spot price: 42252.7
+ Calculated range: High=42377.05, Low=42117.2, ATM Strike=42200
+ Sold ATM options - Call: 363.65, Put: 257.1, Balance: 3245.9000000000037
+ Closing positions at 15:25
+ Bought back ATM call option: 319.95, Balance: 2925.950000000004
+ Bought back ATM put option: 246.9, Balance: 2679.050000000004
+ Taking positions at 10:15, spot price: 42204.15
+ Calculated range: High=42380.85, Low=42188.55, ATM Strike=42200
+ Sold ATM options - Call: 287.65, Put: 253.75, Balance: 3220.450000000004
+ Closing put position below low: 257.45, Balance: 2963.000000000004
+ Re-entering put position above low: 255.5, Balance: 3218.500000000004
+ Closing put position below low: 268.0, Balance: 2950.500000000004
+ Closing positions at 15:25
+ Bought back ATM call option: 213.2, Balance: 2737.3000000000043
+ Taking positions at 10:15, spot price: 42333.1
+ Calculated range: High=42469.95, Low=42293.45, ATM Strike=42300
+ Sold ATM options - Call: 241.7, Put: 201.85, Balance: 3180.850000000004
+ Closing call position above high: 346.3, Balance: 2834.550000000004
+ Closing positions at 15:25
+ Bought back ATM put option: 88.85, Balance: 2745.700000000004
+ Taking positions at 10:15, spot price: 42789.55
+ Calculated range: High=42800.65, Low=42607.3, ATM Strike=42700
+ Sold ATM options - Call: 232.75, Put: 144.0, Balance: 3122.450000000004
+ Closing call position above high: 241.0, Balance: 2881.450000000004
+ Re-entering call position below high: 224.6, Balance: 3106.050000000004
+ Closing call position above high: 234.5, Balance: 2871.550000000004
+ Re-entering call position below high: 228.75, Balance: 3100.300000000004
+ Closing call position above high: 242.85, Balance: 2857.450000000004
+ Re-entering call position below high: 237.55, Balance: 3095.000000000004
+ Closing call position above high: 238.7, Balance: 2856.3000000000043
+ Re-entering call position below high: 228.95, Balance: 3085.250000000004
+ Closing call position above high: 225.0, Balance: 2860.250000000004
+ Re-entering call position below high: 177.95, Balance: 3038.200000000004
+ Closing call position above high: 227.75, Balance: 2810.450000000004
+ Re-entering call position below high: 220.9, Balance: 3031.350000000004
+ Closing call position above high: 235.0, Balance: 2796.350000000004
+ Re-entering call position below high: 209.7, Balance: 3006.050000000004
+ Closing positions at 15:25
+ Bought back ATM call option: 147.95, Balance: 2858.100000000004
+ Bought back ATM put option: 178.95, Balance: 2679.150000000004
+ Taking positions at 10:15, spot price: 42496.45
+ Calculated range: High=42640.0, Low=42434.85, ATM Strike=42400
+ Sold ATM options - Call: 241.15, Put: 87.0, Balance: 3007.3000000000043
+ Closing call position above high: 315.0, Balance: 2692.3000000000043
+ Closing positions at 15:25
+ Bought back ATM put option: 22.7, Balance: 2669.6000000000045
+ Taking positions at 10:15, spot price: 42877.25
+ Calculated range: High=42938.95, Low=42742.45, ATM Strike=42800
+ Sold ATM options - Call: 326.0, Put: 286.5, Balance: 3282.1000000000045
+ Closing call position above high: 382.5, Balance: 2899.6000000000045
+ Re-entering call position below high: 372.3, Balance: 3271.9000000000046
+ Closing call position above high: 374.6, Balance: 2897.3000000000047
+ Re-entering call position below high: 376.3, Balance: 3273.600000000005
+ Closing call position above high: 381.4, Balance: 2892.200000000005
+ Re-entering call position below high: 364.2, Balance: 3256.4000000000046
+ Closing call position above high: 353.2, Balance: 2903.200000000005
+ Re-entering call position below high: 351.5, Balance: 3254.700000000005
+ Closing call position above high: 359.05, Balance: 2895.6500000000046
+ Closing positions at 15:25
+ Bought back ATM put option: 205.1, Balance: 2690.5500000000047
+ Taking positions at 10:15, spot price: 42877.25
+ Calculated range: High=42938.95, Low=42742.45, ATM Strike=42800
+ Sold ATM options - Call: 326.0, Put: 286.5, Balance: 3303.0500000000047
+ Closing call position above high: 382.5, Balance: 2920.5500000000047
+ Re-entering call position below high: 372.3, Balance: 3292.850000000005
+ Closing call position above high: 374.6, Balance: 2918.250000000005
+ Re-entering call position below high: 376.3, Balance: 3294.550000000005
+ Closing call position above high: 381.4, Balance: 2913.150000000005
+ Re-entering call position below high: 364.2, Balance: 3277.350000000005
+ Closing call position above high: 353.2, Balance: 2924.150000000005
+ Re-entering call position below high: 351.5, Balance: 3275.650000000005
+ Closing call position above high: 359.05, Balance: 2916.600000000005
+ Closing positions at 15:25
+ Bought back ATM put option: 205.1, Balance: 2711.500000000005
+ Taking positions at 10:15, spot price: 42861.15
+ Calculated range: High=43081.5, Low=42839.6, ATM Strike=42800
+ Sold ATM options - Call: 305.45, Put: 248.55, Balance: 3265.500000000005
+ Closing put position below low: 242.6, Balance: 3022.900000000005
+ Re-entering put position above low: 228.85, Balance: 3251.750000000005
+ Closing put position below low: 240.45, Balance: 3011.300000000005
+ Re-entering put position above low: 204.35, Balance: 3215.650000000005
+ Closing call position above high: 525.8, Balance: 2689.850000000005
+ Closing positions at 15:25
+ Bought back ATM put option: 86.0, Balance: 2603.850000000005
+ Taking positions at 10:15, spot price: 43411.0
+ Calculated range: High=43467.3, Low=43303.2, ATM Strike=43400
+ Sold ATM options - Call: 192.6, Put: 193.95, Balance: 2990.4000000000046
+ Closing call position above high: 210.95, Balance: 2779.450000000005
+ Re-entering call position below high: 206.25, Balance: 2985.700000000005
+ Closing call position above high: 205.2, Balance: 2780.500000000005
+ Re-entering call position below high: 209.3, Balance: 2989.800000000005
+ Closing put position below low: 207.75, Balance: 2782.050000000005
+ Closing positions at 15:25
+ Bought back ATM call option: 159.35, Balance: 2622.7000000000053
+ Taking positions at 10:15, spot price: 43167.6
+ Calculated range: High=43242.7, Low=43079.65, ATM Strike=43100
+ Sold ATM options - Call: 221.2, Put: 120.65, Balance: 2964.550000000005
+ Closing call position above high: 269.95, Balance: 2694.6000000000054
+ Re-entering call position below high: 235.2, Balance: 2929.800000000005
+ Closing call position above high: 250.0, Balance: 2679.800000000005
+ Re-entering call position below high: 231.9, Balance: 2911.7000000000053
+ Closing call position above high: 231.9, Balance: 2679.800000000005
+ Re-entering call position below high: 239.35, Balance: 2919.150000000005
+ Closing call position above high: 248.85, Balance: 2670.300000000005
+ Closing positions at 15:25
+ Bought back ATM put option: 66.8, Balance: 2603.500000000005
+ Taking positions at 10:15, spot price: 43322.75
+ Calculated range: High=43368.45, Low=43221.25, ATM Strike=43300
+ Sold ATM options - Call: 304.2, Put: 289.65, Balance: 3197.350000000005
+ Closing call position above high: 334.85, Balance: 2862.500000000005
+ Re-entering call position below high: 344.35, Balance: 3206.850000000005
+ Closing call position above high: 345.45, Balance: 2861.400000000005
+ Closing positions at 15:25
+ Bought back ATM put option: 135.4, Balance: 2726.000000000005
+ Taking positions at 10:15, spot price: 43534.85
+ Calculated range: High=43556.45, Low=43073.65, ATM Strike=43500
+ Sold ATM options - Call: 297.95, Put: 226.3, Balance: 3250.250000000005
+ Closing call position above high: 307.1, Balance: 2943.150000000005
+ Re-entering call position below high: 283.3, Balance: 3226.4500000000053
+ Closing put position below low: 621.85, Balance: 2604.6000000000054
+ Closing positions at 15:25
+ Bought back ATM call option: 59.1, Balance: 2545.5000000000055
+ Taking positions at 10:15, spot price: 43206.75
+ Calculated range: High=43316.85, Low=42796.85, ATM Strike=43200
+ Sold ATM options - Call: 245.15, Put: 260.5, Balance: 3051.1500000000055
+ Closing call position above high: 315.4, Balance: 2735.7500000000055
+ Re-entering call position below high: 314.1, Balance: 3049.8500000000054
+ Closing call position above high: 377.25, Balance: 2672.6000000000054
+ Re-entering call position below high: 315.25, Balance: 2987.8500000000054
+ Closing call position above high: 332.45, Balance: 2655.4000000000055
+ Re-entering call position below high: 268.75, Balance: 2924.1500000000055
+ Closing positions at 15:25
+ Bought back ATM call option: 325.1, Balance: 2599.0500000000056
+ Bought back ATM put option: 145.75, Balance: 2453.3000000000056
+ Taking positions at 10:15, spot price: 43381.35
+ Calculated range: High=43491.8, Low=43279.8, ATM Strike=43300
+ Sold ATM options - Call: 290.75, Put: 138.6, Balance: 2882.6500000000055
+ Closing call position above high: 319.7, Balance: 2562.9500000000057
+ Re-entering call position below high: 306.25, Balance: 2869.2000000000057
+ Closing call position above high: 296.4, Balance: 2572.8000000000056
+ Re-entering call position below high: 313.95, Balance: 2886.7500000000055
+ Closing call position above high: 314.45, Balance: 2572.3000000000056
+ Re-entering call position below high: 294.25, Balance: 2866.5500000000056
+ Closing put position below low: 223.95, Balance: 2642.600000000006
+ Re-entering put position above low: 218.0, Balance: 2860.600000000006
+ Closing put position below low: 215.9, Balance: 2644.7000000000057
+ Re-entering put position above low: 159.4, Balance: 2804.100000000006
+ Closing put position below low: 208.35, Balance: 2595.750000000006
+ Re-entering put position above low: 194.05, Balance: 2789.800000000006
+ Closing put position below low: 224.9, Balance: 2564.900000000006
+ Closing positions at 15:25
+ Bought back ATM call option: 147.45, Balance: 2417.450000000006
+ Taking positions at 10:15, spot price: 42919.55
+ Calculated range: High=43372.85, Low=42824.55, ATM Strike=42900
+ Sold ATM options - Call: 227.65, Put: 181.3, Balance: 2826.4000000000065
+ Closing positions at 15:25
+ Bought back ATM call option: 472.35, Balance: 2354.0500000000065
+ Bought back ATM put option: 34.55, Balance: 2319.5000000000064
+ Taking positions at 10:15, spot price: 43558.95
+ Calculated range: High=43607.8, Low=43370.2, ATM Strike=43500
+ Sold ATM options - Call: 349.15, Put: 306.85, Balance: 2975.5000000000064
+ Closing call position above high: 363.35, Balance: 2612.1500000000065
+ Re-entering call position below high: 337.5, Balance: 2949.6500000000065
+ Closing call position above high: 377.25, Balance: 2572.4000000000065
+ Re-entering call position below high: 335.0, Balance: 2907.4000000000065
+ Closing positions at 15:25
+ Bought back ATM call option: 297.45, Balance: 2609.9500000000066
+ Bought back ATM put option: 311.95, Balance: 2298.000000000007
+ Taking positions at 10:15, spot price: 43457.55
+ Calculated range: High=43524.3, Low=43347.75, ATM Strike=43400
+ Sold ATM options - Call: 311.05, Put: 286.5, Balance: 2895.550000000007
+ Closing call position above high: 363.85, Balance: 2531.700000000007
+ Re-entering call position below high: 328.0, Balance: 2859.700000000007
+ Closing call position above high: 358.8, Balance: 2500.900000000007
+ Closing positions at 15:25
+ Bought back ATM put option: 166.8, Balance: 2334.1000000000067
+ Taking positions at 10:15, spot price: 43961.4
+ Calculated range: High=43970.1, Low=43673.05, ATM Strike=43900
+ Sold ATM options - Call: 271.0, Put: 254.35, Balance: 2859.4500000000066
+ Closing call position above high: 267.9, Balance: 2591.5500000000065
+ Re-entering call position below high: 268.1, Balance: 2859.6500000000065
+ Closing call position above high: 253.55, Balance: 2606.1000000000063
+ Re-entering call position below high: 264.35, Balance: 2870.450000000006
+ Closing call position above high: 279.0, Balance: 2591.450000000006
+ Closing positions at 15:25
+ Bought back ATM put option: 208.0, Balance: 2383.450000000006
+ Taking positions at 10:15, spot price: 44077.45
+ Calculated range: High=44144.15, Low=43855.0, ATM Strike=44000
+ Sold ATM options - Call: 282.85, Put: 175.0, Balance: 2841.300000000006
+ Closing positions at 15:25
+ Bought back ATM call option: 145.45, Balance: 2695.8500000000063
+ Bought back ATM put option: 260.55, Balance: 2435.300000000006
+ Taking positions at 10:15, spot price: 43877.45
+ Calculated range: High=43987.25, Low=43807.3, ATM Strike=43800
+ Sold ATM options - Call: 230.6, Put: 136.4, Balance: 2802.300000000006
+ Closing put position below low: 176.55, Balance: 2625.750000000006
+ Re-entering put position above low: 169.8, Balance: 2795.550000000006
+ Closing put position below low: 184.45, Balance: 2611.1000000000063
+ Closing positions at 15:25
+ Bought back ATM call option: 102.45, Balance: 2508.6500000000065
+ Taking positions at 10:15, spot price: 43891.15
+ Calculated range: High=44067.85, Low=43851.85, ATM Strike=43800
+ Sold ATM options - Call: 395.55, Put: 268.0, Balance: 3172.2000000000066
+ Closing put position below low: 303.2, Balance: 2869.000000000007
+ Re-entering put position above low: 277.75, Balance: 3146.750000000007
+ Closing put position below low: 289.05, Balance: 2857.7000000000066
+ Re-entering put position above low: 302.65, Balance: 3160.3500000000067
+ Closing put position below low: 285.4, Balance: 2874.9500000000066
+ Re-entering put position above low: 298.0, Balance: 3172.9500000000066
+ Closing put position below low: 319.95, Balance: 2853.000000000007
+ Closing positions at 15:25
+ Bought back ATM call option: 308.6, Balance: 2544.400000000007
+ Taking positions at 10:15, spot price: 43581.15
+ Calculated range: High=43951.6, Low=43532.25, ATM Strike=43500
+ Sold ATM options - Call: 371.05, Put: 253.4, Balance: 3168.850000000007
+ Closing call position above high: 584.45, Balance: 2584.400000000007
+ Closing positions at 15:25
+ Bought back ATM put option: 99.15, Balance: 2485.250000000007
+ Taking positions at 10:15, spot price: 43851.45
+ Calculated range: High=44026.2, Low=43790.65, ATM Strike=43800
+ Sold ATM options - Call: 295.25, Put: 212.6, Balance: 2993.1000000000067
+ Closing put position below low: 282.55, Balance: 2710.5500000000065
+ Re-entering put position above low: 225.2, Balance: 2935.7500000000064
+ Closing put position below low: 226.6, Balance: 2709.1500000000065
+ Re-entering put position above low: 188.45, Balance: 2897.6000000000063
+ Closing positions at 15:25
+ Bought back ATM call option: 278.8, Balance: 2618.800000000006
+ Bought back ATM put option: 182.8, Balance: 2436.000000000006
+ Taking positions at 10:15, spot price: 44015.75
+ Calculated range: High=44057.75, Low=43866.05, ATM Strike=44000
+ Sold ATM options - Call: 209.55, Put: 196.0, Balance: 2841.550000000006
+ Closing call position above high: 223.0, Balance: 2618.550000000006
+ Re-entering call position below high: 219.2, Balance: 2837.750000000006
+ Closing call position above high: 214.05, Balance: 2623.7000000000057
+ Re-entering call position below high: 208.0, Balance: 2831.7000000000057
+ Closing call position above high: 200.4, Balance: 2631.3000000000056
+ Re-entering call position below high: 199.05, Balance: 2830.350000000006
+ Closing call position above high: 210.35, Balance: 2620.000000000006
+ Re-entering call position below high: 220.2, Balance: 2840.2000000000057
+ Closing call position above high: 215.75, Balance: 2624.4500000000057
+ Re-entering call position below high: 216.05, Balance: 2840.500000000006
+ Closing call position above high: 215.65, Balance: 2624.850000000006
+ Re-entering call position below high: 210.1, Balance: 2834.9500000000057
+ Closing call position above high: 214.75, Balance: 2620.2000000000057
+ Re-entering call position below high: 218.6, Balance: 2838.8000000000056
+ Closing call position above high: 216.65, Balance: 2622.1500000000055
+ Re-entering call position below high: 197.8, Balance: 2819.9500000000057
+ Closing positions at 15:25
+ Bought back ATM call option: 156.75, Balance: 2663.2000000000057
+ Bought back ATM put option: 204.9, Balance: 2458.3000000000056
+ Taking positions at 10:15, spot price: 43896.0
+ Calculated range: High=43935.5, Low=43709.8, ATM Strike=43800
+ Sold ATM options - Call: 230.3, Put: 109.75, Balance: 2798.350000000006
+ Closing call position above high: 263.65, Balance: 2534.7000000000057
+ Re-entering call position below high: 252.4, Balance: 2787.100000000006
+ Closing call position above high: 271.85, Balance: 2515.250000000006
+ Re-entering call position below high: 226.7, Balance: 2741.9500000000057
+ Closing put position below low: 191.65, Balance: 2550.3000000000056
+ Closing positions at 15:25
+ Bought back ATM call option: 98.75, Balance: 2451.5500000000056
+ Taking positions at 10:15, spot price: 43517.15
+ Calculated range: High=43702.6, Low=43513.05, ATM Strike=43500
+ Sold ATM options - Call: 399.7, Put: 300.9, Balance: 3152.1500000000055
+ Closing put position below low: 323.55, Balance: 2828.6000000000054
+ Re-entering put position above low: 309.25, Balance: 3137.8500000000054
+ Closing put position below low: 312.05, Balance: 2825.800000000005
+ Re-entering put position above low: 322.55, Balance: 3148.3500000000054
+ Closing put position below low: 317.8, Balance: 2830.550000000005
+ Re-entering put position above low: 318.05, Balance: 3148.6000000000054
+ Closing put position below low: 335.25, Balance: 2813.3500000000054
+ Re-entering put position above low: 324.25, Balance: 3137.6000000000054
+ Closing put position below low: 317.7, Balance: 2819.9000000000055
+ Re-entering put position above low: 317.95, Balance: 3137.8500000000054
+ Closing put position below low: 362.05, Balance: 2775.800000000005
+ Re-entering put position above low: 327.0, Balance: 3102.800000000005
+ Closing put position below low: 291.3, Balance: 2811.500000000005
+ Re-entering put position above low: 305.25, Balance: 3116.750000000005
+ Closing positions at 15:25
+ Bought back ATM call option: 408.75, Balance: 2708.000000000005
+ Bought back ATM put option: 223.6, Balance: 2484.400000000005
+ Taking positions at 10:15, spot price: 43517.15
+ Calculated range: High=43702.6, Low=43513.05, ATM Strike=43500
+ Sold ATM options - Call: 399.7, Put: 300.9, Balance: 3185.000000000005
+ Closing put position below low: 323.55, Balance: 2861.450000000005
+ Re-entering put position above low: 309.25, Balance: 3170.700000000005
+ Closing put position below low: 312.05, Balance: 2858.6500000000046
+ Re-entering put position above low: 322.55, Balance: 3181.200000000005
+ Closing put position below low: 317.8, Balance: 2863.4000000000046
+ Re-entering put position above low: 318.05, Balance: 3181.450000000005
+ Closing put position below low: 335.25, Balance: 2846.200000000005
+ Re-entering put position above low: 324.25, Balance: 3170.450000000005
+ Closing put position below low: 317.7, Balance: 2852.750000000005
+ Re-entering put position above low: 317.95, Balance: 3170.700000000005
+ Closing put position below low: 362.05, Balance: 2808.6500000000046
+ Re-entering put position above low: 327.0, Balance: 3135.6500000000046
+ Closing put position below low: 291.3, Balance: 2844.3500000000045
+ Re-entering put position above low: 305.25, Balance: 3149.6000000000045
+ Closing positions at 15:25
+ Bought back ATM call option: 408.75, Balance: 2740.8500000000045
+ Bought back ATM put option: 223.6, Balance: 2517.2500000000045
+ Taking positions at 10:15, spot price: 43697.5
+ Calculated range: High=43765.35, Low=43589.15, ATM Strike=43600
+ Sold ATM options - Call: 302.25, Put: 260.4, Balance: 3079.9000000000046
+ Closing call position above high: 390.85, Balance: 2689.0500000000047
+ Closing positions at 15:25
+ Bought back ATM put option: 131.85, Balance: 2557.200000000005
+ Taking positions at 10:15, spot price: 44366.1
+ Calculated range: High=44457.65, Low=44228.35, ATM Strike=44300
+ Sold ATM options - Call: 267.15, Put: 215.35, Balance: 3039.700000000005
+ Closing call position above high: 323.5, Balance: 2716.200000000005
+ Re-entering call position below high: 315.55, Balance: 3031.750000000005
+ Closing positions at 15:25
+ Bought back ATM call option: 225.35, Balance: 2806.400000000005
+ Bought back ATM put option: 212.4, Balance: 2594.000000000005
+ Taking positions at 10:15, spot price: 44382.45
+ Calculated range: High=44413.75, Low=44207.9, ATM Strike=44300
+ Sold ATM options - Call: 230.55, Put: 163.5, Balance: 2988.050000000005
+ Closing call position above high: 226.2, Balance: 2761.8500000000054
+ Re-entering call position below high: 231.95, Balance: 2993.800000000005
+ Closing call position above high: 230.5, Balance: 2763.300000000005
+ Re-entering call position below high: 243.7, Balance: 3007.000000000005
+ Closing call position above high: 241.15, Balance: 2765.850000000005
+ Closing positions at 15:25
+ Bought back ATM put option: 113.05, Balance: 2652.8000000000047
+ Taking positions at 10:15, spot price: 44136.7
+ Calculated range: High=44332.55, Low=44056.05, ATM Strike=44100
+ Sold ATM options - Call: 190.05, Put: 131.75, Balance: 2974.600000000005
+ Closing put position below low: 171.7, Balance: 2802.900000000005
+ Re-entering put position above low: 109.75, Balance: 2912.650000000005
+ Closing positions at 15:25
+ Bought back ATM call option: 173.5, Balance: 2739.150000000005
+ Bought back ATM put option: 95.85, Balance: 2643.300000000005
+ Taking positions at 10:15, spot price: 44091.05
+ Calculated range: High=44172.05, Low=43972.2, ATM Strike=44000
+ Sold ATM options - Call: 387.55, Put: 251.6, Balance: 3282.4500000000053
+ Closing put position below low: 276.95, Balance: 3005.5000000000055
+ Re-entering put position above low: 304.95, Balance: 3310.4500000000053
+ Closing put position below low: 300.85, Balance: 3009.6000000000054
+ Closing positions at 15:25
+ Bought back ATM call option: 250.85, Balance: 2758.7500000000055
+ Taking positions at 10:15, spot price: 43851.05
+ Calculated range: High=44039.9, Low=43845.7, ATM Strike=43800
+ Sold ATM options - Call: 347.55, Put: 242.2, Balance: 3348.5000000000055
+ Closing put position below low: 253.35, Balance: 3095.1500000000055
+ Re-entering put position above low: 224.25, Balance: 3319.4000000000055
+ Closing call position above high: 481.35, Balance: 2838.0500000000056
+ Re-entering call position below high: 500.35, Balance: 3338.4000000000055
+ Closing call position above high: 493.4, Balance: 2845.0000000000055
+ Re-entering call position below high: 463.3, Balance: 3308.3000000000056
+ Closing call position above high: 464.85, Balance: 2843.4500000000057
+ Re-entering call position below high: 395.6, Balance: 3239.0500000000056
+ Closing positions at 15:25
+ Bought back ATM call option: 365.7, Balance: 2873.350000000006
+ Bought back ATM put option: 180.75, Balance: 2692.600000000006
+ Taking positions at 10:15, spot price: 44203.1
+ Calculated range: High=44245.7, Low=44103.25, ATM Strike=44200
+ Sold ATM options - Call: 248.8, Put: 199.4, Balance: 3140.800000000006
+ Closing call position above high: 256.05, Balance: 2884.750000000006
+ Re-entering call position below high: 260.3, Balance: 3145.050000000006
+ Closing call position above high: 258.8, Balance: 2886.250000000006
+ Re-entering call position below high: 247.95, Balance: 3134.2000000000057
+ Closing call position above high: 261.25, Balance: 2872.9500000000057
+ Re-entering call position below high: 241.2, Balance: 3114.1500000000055
+ Closing put position below low: 200.6, Balance: 2913.5500000000056
+ Re-entering put position above low: 219.05, Balance: 3132.600000000006
+ Closing positions at 15:25
+ Bought back ATM call option: 195.85, Balance: 2936.750000000006
+ Bought back ATM put option: 209.85, Balance: 2726.900000000006
+ Taking positions at 10:15, spot price: 44086.7
+ Calculated range: High=44187.0, Low=44064.2, ATM Strike=44000
+ Sold ATM options - Call: 254.0, Put: 134.0, Balance: 3114.900000000006
+ Closing put position below low: 142.05, Balance: 2972.850000000006
+ Re-entering put position above low: 145.2, Balance: 3118.0500000000056
+ Closing put position below low: 155.7, Balance: 2962.350000000006
+ Re-entering put position above low: 140.6, Balance: 3102.9500000000057
+ Closing put position below low: 141.25, Balance: 2961.7000000000057
+ Re-entering put position above low: 140.2, Balance: 3101.9000000000055
+ Closing put position below low: 118.65, Balance: 2983.2500000000055
+ Re-entering put position above low: 125.4, Balance: 3108.6500000000055
+ Closing put position below low: 134.05, Balance: 2974.6000000000054
+ Re-entering put position above low: 124.2, Balance: 3098.800000000005
+ Closing call position above high: 294.95, Balance: 2803.8500000000054
+ Closing positions at 15:25
+ Bought back ATM put option: 84.2, Balance: 2719.6500000000055
+ Taking positions at 10:15, spot price: 44264.4
+ Calculated range: High=44345.8, Low=44232.85, ATM Strike=44200
+ Sold ATM options - Call: 184.35, Put: 103.9, Balance: 3007.9000000000055
+ Closing put position below low: 132.5, Balance: 2875.4000000000055
+ Re-entering put position above low: 100.25, Balance: 2975.6500000000055
+ Closing put position below low: 99.6, Balance: 2876.0500000000056
+ Re-entering put position above low: 98.6, Balance: 2974.6500000000055
+ Closing positions at 15:25
+ Bought back ATM call option: 170.1, Balance: 2804.5500000000056
+ Bought back ATM put option: 91.95, Balance: 2712.600000000006
+ Taking positions at 10:15, spot price: 44387.35
+ Calculated range: High=44435.75, Low=44208.3, ATM Strike=44300
+ Sold ATM options - Call: 363.8, Put: 247.6, Balance: 3324.000000000006
+ Closing call position above high: 372.95, Balance: 2951.050000000006
+ Re-entering call position below high: 367.15, Balance: 3318.200000000006
+ Closing call position above high: 377.45, Balance: 2940.7500000000064
+ Re-entering call position below high: 373.5, Balance: 3314.2500000000064
+ Closing call position above high: 372.15, Balance: 2942.1000000000063
+ Re-entering call position below high: 375.85, Balance: 3317.950000000006
+ Closing call position above high: 367.2, Balance: 2950.7500000000064
+ Re-entering call position below high: 339.5, Balance: 3290.2500000000064
+ Closing put position below low: 286.0, Balance: 3004.2500000000064
+ Re-entering put position above low: 296.5, Balance: 3300.7500000000064
+ Closing put position below low: 284.45, Balance: 3016.3000000000065
+ Re-entering put position above low: 282.45, Balance: 3298.7500000000064
+ Closing put position below low: 282.6, Balance: 3016.1500000000065
+ Re-entering put position above low: 330.0, Balance: 3346.1500000000065
+ Closing put position below low: 345.05, Balance: 3001.1000000000063
+ Closing positions at 15:25
+ Bought back ATM call option: 189.75, Balance: 2811.3500000000063
+ Taking positions at 10:15, spot price: 44214.6
+ Calculated range: High=44218.05, Low=43934.0, ATM Strike=44200
+ Sold ATM options - Call: 252.7, Put: 263.8, Balance: 3327.8500000000063
+ Closing positions at 15:25
+ Bought back ATM call option: 168.45, Balance: 3159.4000000000065
+ Bought back ATM put option: 334.0, Balance: 2825.4000000000065
+ Taking positions at 10:15, spot price: 43954.75
+ Calculated range: High=44092.2, Low=43922.5, ATM Strike=43900
+ Sold ATM options - Call: 284.0, Put: 173.05, Balance: 3282.4500000000066
+ Closing put position below low: 198.85, Balance: 3083.6000000000067
+ Re-entering put position above low: 168.0, Balance: 3251.6000000000067
+ Closing positions at 15:25
+ Bought back ATM call option: 269.7, Balance: 2981.900000000007
+ Bought back ATM put option: 156.0, Balance: 2825.900000000007
+ Taking positions at 10:15, spot price: 44065.0
+ Calculated range: High=44119.0, Low=43889.7, ATM Strike=44000
+ Sold ATM options - Call: 245.1, Put: 129.8, Balance: 3200.800000000007
+ Closing positions at 15:25
+ Bought back ATM call option: 250.2, Balance: 2950.600000000007
+ Bought back ATM put option: 102.9, Balance: 2847.700000000007
+ Taking positions at 10:15, spot price: 43989.75
+ Calculated range: High=44197.75, Low=43966.3, ATM Strike=43900
+ Sold ATM options - Call: 243.1, Put: 93.5, Balance: 3184.300000000007
+ Closing positions at 15:25
+ Bought back ATM call option: 230.7, Balance: 2953.600000000007
+ Bought back ATM put option: 79.05, Balance: 2874.550000000007
+ Taking positions at 10:15, spot price: 43901.25
+ Calculated range: High=44058.25, Low=43840.95, ATM Strike=43900
+ Sold ATM options - Call: 317.25, Put: 253.7, Balance: 3445.500000000007
+ Closing put position below low: 297.5, Balance: 3148.000000000007
+ Closing positions at 15:25
+ Bought back ATM call option: 130.0, Balance: 3018.000000000007
+ Taking positions at 10:15, spot price: 43696.65
+ Calculated range: High=43729.8, Low=43546.8, ATM Strike=43600
+ Sold ATM options - Call: 346.1, Put: 169.4, Balance: 3533.500000000007
+ Closing call position above high: 338.15, Balance: 3195.3500000000067
+ Re-entering call position below high: 339.3, Balance: 3534.650000000007
+ Closing call position above high: 358.55, Balance: 3176.1000000000067
+ Re-entering call position below high: 352.3, Balance: 3528.400000000007
+ Closing call position above high: 340.15, Balance: 3188.250000000007
+ Re-entering call position below high: 345.5, Balance: 3533.750000000007
+ Closing call position above high: 345.45, Balance: 3188.300000000007
+ Re-entering call position below high: 342.25, Balance: 3530.550000000007
+ Closing call position above high: 346.0, Balance: 3184.550000000007
+ Re-entering call position below high: 341.4, Balance: 3525.950000000007
+ Closing call position above high: 337.9, Balance: 3188.050000000007
+ Re-entering call position below high: 322.9, Balance: 3510.950000000007
+ Closing call position above high: 378.0, Balance: 3132.950000000007
+ Closing positions at 15:25
+ Bought back ATM put option: 105.45, Balance: 3027.5000000000073
+ Taking positions at 10:15, spot price: 43885.25
+ Calculated range: High=44026.7, Low=43857.2, ATM Strike=43800
+ Sold ATM options - Call: 272.55, Put: 156.05, Balance: 3456.1000000000076
+ Closing put position below low: 204.8, Balance: 3251.3000000000075
+ Closing positions at 15:25
+ Bought back ATM call option: 167.75, Balance: 3083.5500000000075
+ money : 3083.5500000000075
